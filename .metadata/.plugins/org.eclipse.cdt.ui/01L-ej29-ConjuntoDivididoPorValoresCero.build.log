@@ -1,0 +1,33 @@
+19:23:54 **** Incremental Build of configuration Debug for project 01L-ej29-ConjuntoDivididoPorValoresCero ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\01L-ej29-ConjuntoDivididoPorValoresCero.o" "..\\src\\01L-ej29-ConjuntoDivididoPorValoresCero.cpp" 
+..\src\01L-ej29-ConjuntoDivididoPorValoresCero.cpp: In function 'int main()':
+..\src\01L-ej29-ConjuntoDivididoPorValoresCero.cpp:48:9: error: ambiguous overload for 'operator>>' (operand types are 'std::istream' {aka 'std::basic_istream<char>'} and 'int')
+   48 |     cin >> 0;
+      |     ~~~ ^~ ~
+      |     |      |
+      |     |      int
+      |     std::istream {aka std::basic_istream<char>}
+In file included from c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\iostream:40,
+                 from ..\src\01L-ej29-ConjuntoDivididoPorValoresCero.cpp:9:
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\istream:120:7: note: candidate: 'std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(std::basic_istream<_CharT, _Traits>::__istream_type& (*)(std::basic_istream<_CharT, _Traits>::__istream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>]'
+  120 |       operator>>(__istream_type& (*__pf)(__istream_type&))
+      |       ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\istream:124:7: note: candidate: 'std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(std::basic_istream<_CharT, _Traits>::__ios_type& (*)(std::basic_istream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>; std::basic_istream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]'
+  124 |       operator>>(__ios_type& (*__pf)(__ios_type&))
+      |       ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\istream:131:7: note: candidate: 'std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>]'
+  131 |       operator>>(ios_base& (*__pf)(ios_base&))
+      |       ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\istream:259:7: note: candidate: 'std::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::operator>>(std::basic_istream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]'
+  259 |       operator>>(__streambuf_type* __sb);
+      |       ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\istream:803:5: note: candidate: 'std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, unsigned char*) [with _Traits = std::char_traits<char>]'
+  803 |     operator>>(basic_istream<char, _Traits>& __in, unsigned char* __s)
+      |     ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\istream:808:5: note: candidate: 'std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, signed char*) [with _Traits = std::char_traits<char>]'
+  808 |     operator>>(basic_istream<char, _Traits>& __in, signed char* __s)
+      |     ^~~~~~~~
+
+19:23:54 Build Finished (took 619ms)
+

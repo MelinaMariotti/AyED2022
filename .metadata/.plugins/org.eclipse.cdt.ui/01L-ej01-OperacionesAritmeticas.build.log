@@ -1,0 +1,7 @@
+19:31:39 **** Rebuild of configuration Debug for project 01L-ej01-OperacionesAritmeticas ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\01L-ej01-OperacionesAritmeticas.o" "..\\src\\01L-ej01-OperacionesAritmeticas.cpp" 
+g++ -o 01L-ej01-OperacionesAritmeticas.exe "src\\01L-ej01-OperacionesAritmeticas.o" 
+
+19:31:45 Build Finished (took 5s.918ms)
+

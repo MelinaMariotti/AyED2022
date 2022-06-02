@@ -1,0 +1,33 @@
+
+#ifndef _MAIN
+#define _MAIN
+
+#include <iostream>
+#include "biblioteca/funciones/strings.hpp"
+#include "biblioteca/funciones/tokens.hpp"
+#include "biblioteca/funciones/files.hpp"
+#include "biblioteca/tads/Array.hpp"
+#include "biblioteca/tads/Map.hpp"
+#include "biblioteca/tads/List.hpp"
+#include "biblioteca/tads/Stack.hpp"
+#include "biblioteca/tads/Queue.hpp"
+#include "biblioteca/tads/Coll.hpp"
+using namespace std;
+
+int main()
+{
+
+   string s1 = "cursoDeAlgoritmos";
+   string s2= "ritmos";
+
+   if (endsWith(s1, s2)) {
+      cout << s2 << " es sufijo de: " << s1 << endl;
+   }
+
+   //cout << s1[length(s1)-1] ;
+
+   return 0;
+
+} //END MAIN
+
+#endif

@@ -1,0 +1,38 @@
+
+#ifndef _MAIN
+#define _MAIN
+
+#include <iostream>
+#include "biblioteca/funciones/strings.hpp"
+#include "biblioteca/funciones/tokens.hpp"
+#include "biblioteca/funciones/files.hpp"
+#include "biblioteca/tads/Array.hpp"
+#include "biblioteca/tads/Map.hpp"
+#include "biblioteca/tads/List.hpp"
+#include "biblioteca/tads/Stack.hpp"
+#include "biblioteca/tads/Queue.hpp"
+#include "biblioteca/tads/Coll.hpp"
+using namespace std;
+
+int main()
+{
+
+/*12-intToChar
+   int i = 13;
+   char c = intToChar(i);
+   cout << c << endl;*/
+
+/*15-intToString
+   int i =12345;
+   //string s = intToString(i);
+   cout << "Hola" << endl;*/
+
+      int  n = 1239933;
+      int i = digitCount(n);
+      cout << i << endl;
+
+   return 0;
+
+} //END MAIN
+
+#endif

@@ -1,0 +1,7 @@
+19:31:48 **** Rebuild of configuration Debug for project 01L-ej06-MayorMedioYMenorValorEntre3Numeros ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\01L-ej06-MayorMedioYMenorValorEntre3Numeros.o" "..\\src\\01L-ej06-MayorMedioYMenorValorEntre3Numeros.cpp" 
+g++ -o 01L-ej06-MayorMedioYMenorValorEntre3Numeros.exe "src\\01L-ej06-MayorMedioYMenorValorEntre3Numeros.o" 
+
+19:31:49 Build Finished (took 946ms)
+

@@ -1,0 +1,1548 @@
+16:42:58 **** Rebuild of configuration Debug for project Demo ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Demo.o" "..\\src\\Demo.cpp" 
+g++ -o Demo.exe "src\\Demo.o" 
+Info: Nothing to build for Demo
+14:55:53 **** Incremental Build of configuration Debug for project Demo ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Demo.o" "..\\src\\Demo.cpp" 
+..\src\Demo.cpp: In function 'int main()':
+..\src\Demo.cpp:35:26: warning: 'nroAEvaluar' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   35 |     while( i<nroAEvaluar and primo == true){
+      |            ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+g++ -o Demo.exe "src\\Demo.o" 
+Info: Nothing to build for Demo
+14:58:43 **** Incremental Build of configuration Debug for project Demo ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Demo.o" "..\\src\\Demo.cpp" 
+g++ -o Demo.exe "src\\Demo.o" 
+c:/c/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Demo.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:58:48 **** Incremental Build of configuration Debug for project Demo ****
+Info: Internal Builder is used for build
+g++ -o Demo.exe "src\\Demo.o" 
+c:/c/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Demo.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:58:57 **** Incremental Build of configuration Debug for project Demo ****
+Info: Internal Builder is used for build
+g++ -o Demo.exe "src\\Demo.o" 
+c:/c/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Demo.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:59:04 **** Incremental Build of configuration Debug for project Demo ****
+Info: Internal Builder is used for build
+g++ -o Demo.exe "src\\Demo.o" 
+c:/c/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Demo.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:04:03 **** Incremental Build of configuration Debug for project Demo ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Demo.o" "..\\src\\Demo.cpp" 
+g++ -o Demo.exe "src\\Demo.o" 
+c:/c/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Demo.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:04:11 **** Incremental Build of configuration Debug for project Demo ****
+Info: Internal Builder is used for build
+g++ -o Demo.exe "src\\Demo.o" 
+c:/c/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Demo.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:06:35 **** Incremental Build of configuration Debug for project Demo ****
+Info: Internal Builder is used for build
+g++ -o Demo.exe "src\\Demo.o" 
+c:/c/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Demo.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:24:54 **** Incremental Build of configuration Debug for project Demo ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Demo.o" "..\\src\\Demo.cpp" 
+g++ -o Demo.exe "src\\Demo.o" 
+18:55:24 **** Rebuild of configuration Debug for project 01L-ej01-OperacionesAritmeticas ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\01L-ej01-OperacionesAritmeticas.o" "..\\src\\01L-ej01-OperacionesAritmeticas.cpp" 
+g++ -o 01L-ej01-OperacionesAritmeticas.exe "src\\01L-ej01-OperacionesAritmeticas.o" 
+Info: Nothing to build for Demo
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+Info: Nothing to build for Demo
+18:56:26 **** Incremental Build of configuration Debug for project 01L-ej01-OperacionesAritmeticas ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\01L-ej01-OperacionesAritmeticas.o" "..\\src\\01L-ej01-OperacionesAritmeticas.cpp" 
+g++ -o 01L-ej01-OperacionesAritmeticas.exe "src\\01L-ej01-OperacionesAritmeticas.o" 
+Info: Nothing to build for Demo
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+19:28:59 **** Rebuild of configuration Debug for project 01L-ej02-CocienteEntre2Numeros ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\01L-ej02-CocienteEntre2Numeros.o" "..\\src\\01L-ej02-CocienteEntre2Numeros.cpp" 
+g++ -o 01L-ej02-CocienteEntre2Numeros.exe "src\\01L-ej02-CocienteEntre2Numeros.o" 
+Info: Nothing to build for Demo
+Info: Nothing to build for 01L-ej02-CocienteEntre2Numeros
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+19:29:26 **** Incremental Build of configuration Debug for project 01L-ej02-CocienteEntre2Numeros ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\01L-ej02-CocienteEntre2Numeros.o" "..\\src\\01L-ej02-CocienteEntre2Numeros.cpp" 
+g++ -o 01L-ej02-CocienteEntre2Numeros.exe "src\\01L-ej02-CocienteEntre2Numeros.o" 
+Info: Nothing to build for Demo
+Info: Nothing to build for 01L-ej02-CocienteEntre2Numeros
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+16:56:50 **** Incremental Build of configuration Debug for project 01L-ej02-CocienteEntre2Numeros ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\01L-ej02-CocienteEntre2Numeros.o" "..\\src\\01L-ej02-CocienteEntre2Numeros.cpp" 
+g++ -o 01L-ej02-CocienteEntre2Numeros.exe "src\\01L-ej02-CocienteEntre2Numeros.o" 
+16:56:54 **** Rebuild of configuration Debug for project 01L-ej03-DivisionEnteraYModulo ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\01L-ej03-DivisionEnteraYModulo.o" "..\\src\\01L-ej03-DivisionEnteraYModulo.cpp" 
+g++ -o 01L-ej03-DivisionEnteraYModulo.exe "src\\01L-ej03-DivisionEnteraYModulo.o" 
+Info: Nothing to build for Demo
+Info: Nothing to build for 01L-ej03-DivisionEnteraYModulo
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+Info: Nothing to build for 01L-ej02-CocienteEntre2Numeros
+16:58:01 **** Incremental Build of configuration Debug for project 01L-ej03-DivisionEnteraYModulo ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\01L-ej03-DivisionEnteraYModulo.o" "..\\src\\01L-ej03-DivisionEnteraYModulo.cpp" 
+g++ -o 01L-ej03-DivisionEnteraYModulo.exe "src\\01L-ej03-DivisionEnteraYModulo.o" 
+Info: Nothing to build for Demo
+Info: Nothing to build for 01L-ej03-DivisionEnteraYModulo
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+Info: Nothing to build for 01L-ej02-CocienteEntre2Numeros
+16:58:44 **** Incremental Build of configuration Debug for project 01L-ej03-DivisionEnteraYModulo ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\01L-ej03-DivisionEnteraYModulo.o" "..\\src\\01L-ej03-DivisionEnteraYModulo.cpp" 
+g++ -o 01L-ej03-DivisionEnteraYModulo.exe "src\\01L-ej03-DivisionEnteraYModulo.o" 
+Info: Nothing to build for Demo
+Info: Nothing to build for 01L-ej03-DivisionEnteraYModulo
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+Info: Nothing to build for 01L-ej02-CocienteEntre2Numeros
+Info: Nothing to build for 01L-ej03-DivisionEnteraYModulo
+17:19:40 **** Rebuild of configuration Debug for project 01L-ej04-MayorValorEntre2Numeros ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\01L-ej04-MayorValorEntre2Numeros.o" "..\\src\\01L-ej04-MayorValorEntre2Numeros.cpp" 
+g++ -o 01L-ej04-MayorValorEntre2Numeros.exe "src\\01L-ej04-MayorValorEntre2Numeros.o" 
+Info: Nothing to build for Demo
+Info: Nothing to build for 01L-ej04-MayorValorEntre2Numeros
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+Info: Nothing to build for 01L-ej02-CocienteEntre2Numeros
+Info: Nothing to build for 01L-ej03-DivisionEnteraYModulo
+Info: Nothing to build for 01L-ej04-MayorValorEntre2Numeros
+17:39:13 **** Rebuild of configuration Debug for project 01L-ej05-MayorYMenorValorEntre2Numeros ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\01L-ej05-MayorYMenorValorEntre2Numeros.o" "..\\src\\01L-ej05-MayorYMenorValorEntre2Numeros.cpp" 
+g++ -o 01L-ej05-MayorYMenorValorEntre2Numeros.exe "src\\01L-ej05-MayorYMenorValorEntre2Numeros.o" 
+Info: Nothing to build for Demo
+Info: Nothing to build for 01L-ej05-MayorYMenorValorEntre2Numeros
+Info: Nothing to build for 01L-ej05-MayorYMenorValorEntre2Numeros
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+Info: Nothing to build for 01L-ej02-CocienteEntre2Numeros
+Info: Nothing to build for 01L-ej03-DivisionEnteraYModulo
+Info: Nothing to build for 01L-ej04-MayorValorEntre2Numeros
+Info: Nothing to build for 01L-ej05-MayorYMenorValorEntre2Numeros
+18:50:43 **** Rebuild of configuration Debug for project 01L-ej06-MayorMedioYMenorValorEntre3Numeros ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\01L-ej06-MayorMedioYMenorValorEntre3Numeros.o" "..\\src\\01L-ej06-MayorMedioYMenorValorEntre3Numeros.cpp" 
+g++ -o 01L-ej06-MayorMedioYMenorValorEntre3Numeros.exe "src\\01L-ej06-MayorMedioYMenorValorEntre3Numeros.o" 
+Info: Nothing to build for Demo
+Info: Nothing to build for 01L-ej06-MayorMedioYMenorValorEntre3Numeros
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+Info: Nothing to build for 01L-ej02-CocienteEntre2Numeros
+Info: Nothing to build for 01L-ej03-DivisionEnteraYModulo
+Info: Nothing to build for 01L-ej04-MayorValorEntre2Numeros
+Info: Nothing to build for 01L-ej05-MayorYMenorValorEntre2Numeros
+18:52:05 **** Incremental Build of configuration Debug for project 01L-ej06-MayorMedioYMenorValorEntre3Numeros ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\01L-ej06-MayorMedioYMenorValorEntre3Numeros.o" "..\\src\\01L-ej06-MayorMedioYMenorValorEntre3Numeros.cpp" 
+g++ -o 01L-ej06-MayorMedioYMenorValorEntre3Numeros.exe "src\\01L-ej06-MayorMedioYMenorValorEntre3Numeros.o" 
+Info: Nothing to build for Demo
+Info: Nothing to build for 01L-ej06-MayorMedioYMenorValorEntre3Numeros
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+Info: Nothing to build for 01L-ej02-CocienteEntre2Numeros
+Info: Nothing to build for 01L-ej03-DivisionEnteraYModulo
+Info: Nothing to build for 01L-ej04-MayorValorEntre2Numeros
+Info: Nothing to build for 01L-ej05-MayorYMenorValorEntre2Numeros
+19:00:16 **** Incremental Build of configuration Debug for project 01L-ej06-MayorMedioYMenorValorEntre3Numeros ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\01L-ej06-MayorMedioYMenorValorEntre3Numeros.o" "..\\src\\01L-ej06-MayorMedioYMenorValorEntre3Numeros.cpp" 
+g++ -o 01L-ej06-MayorMedioYMenorValorEntre3Numeros.exe "src\\01L-ej06-MayorMedioYMenorValorEntre3Numeros.o" 
+Info: Nothing to build for Demo
+Info: Nothing to build for 01L-ej06-MayorMedioYMenorValorEntre3Numeros
+Info: Nothing to build for 01L-ej06-MayorMedioYMenorValorEntre3Numeros
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+Info: Nothing to build for 01L-ej02-CocienteEntre2Numeros
+Info: Nothing to build for 01L-ej03-DivisionEnteraYModulo
+Info: Nothing to build for 01L-ej04-MayorValorEntre2Numeros
+Info: Nothing to build for 01L-ej05-MayorYMenorValorEntre2Numeros
+Info: Nothing to build for 01L-ej06-MayorMedioYMenorValorEntre3Numeros
+Info: Nothing to build for Demo
+Info: Nothing to build for 01L-ej06-MayorMedioYMenorValorEntre3Numeros
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+Info: Nothing to build for 01L-ej02-CocienteEntre2Numeros
+Info: Nothing to build for 01L-ej03-DivisionEnteraYModulo
+Info: Nothing to build for 01L-ej04-MayorValorEntre2Numeros
+Info: Nothing to build for 01L-ej05-MayorYMenorValorEntre2Numeros
+Info: Nothing to build for 01L-ej06-MayorMedioYMenorValorEntre3Numeros
+14:51:21 **** Rebuild of configuration Debug for project 01L-ej07-TipoDeTrianguloSegunSusLados ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\01L-ej07-TipoDeTrianguloSegunSusLados.o" "..\\src\\01L-ej07-TipoDeTrianguloSegunSusLados.cpp" 
+..\src\01L-ej07-TipoDeTrianguloSegunSusLados.cpp: In function 'int main()':
+..\src\01L-ej07-TipoDeTrianguloSegunSusLados.cpp:31:14: warning: suggest parentheses around comparison in operand of '==' [-Wparentheses]
+   31 |    if (lado1 == lado2 == lado3){
+      |        ~~~~~~^~~~~~~~
+..\src\01L-ej07-TipoDeTrianguloSegunSusLados.cpp:40:21: warning: suggest parentheses around comparison in operand of '!=' [-Wparentheses]
+   40 |    } else if (lado1 != lado2 != lado3) {
+      |               ~~~~~~^~~~~~~~
+g++ -o 01L-ej07-TipoDeTrianguloSegunSusLados.exe "src\\01L-ej07-TipoDeTrianguloSegunSusLados.o" 
+Info: Nothing to build for Demo
+Info: Nothing to build for 01L-ej07-TipoDeTrianguloSegunSusLados
+Info: Nothing to build for 01L-ej07-TipoDeTrianguloSegunSusLados
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+Info: Nothing to build for 01L-ej02-CocienteEntre2Numeros
+Info: Nothing to build for 01L-ej03-DivisionEnteraYModulo
+Info: Nothing to build for 01L-ej04-MayorValorEntre2Numeros
+Info: Nothing to build for 01L-ej05-MayorYMenorValorEntre2Numeros
+Info: Nothing to build for 01L-ej06-MayorMedioYMenorValorEntre3Numeros
+15:51:10 **** Incremental Build of configuration Debug for project 01L-ej07-TipoDeTrianguloSegunSusLados ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\01L-ej07-TipoDeTrianguloSegunSusLados.o" "..\\src\\01L-ej07-TipoDeTrianguloSegunSusLados.cpp" 
+g++ -o 01L-ej07-TipoDeTrianguloSegunSusLados.exe "src\\01L-ej07-TipoDeTrianguloSegunSusLados.o" 
+15:51:12 **** Rebuild of configuration Debug for project 01L-ej29-ConjuntoDivididoPorValoresCero ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\01L-ej29-ConjuntoDivididoPorValoresCero.o" "..\\src\\01L-ej29-ConjuntoDivididoPorValoresCero.cpp" 
+g++ -o 01L-ej29-ConjuntoDivididoPorValoresCero.exe "src\\01L-ej29-ConjuntoDivididoPorValoresCero.o" 
+15:51:13 **** Rebuild of configuration Debug for project 04Clase ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\04Clase.o" "..\\src\\04Clase.cpp" 
+..\src\04Clase.cpp:21:7: error: expected initializer before 'fecha'
+   21 | Fecha fecha (int d, int m, int anio){
+      |       ^~~~~
+..\src\04Clase.cpp: In function 'int main()':
+..\src\04Clase.cpp:41:14: error: 'fecha' was not declared in this scope; did you mean 'Fecha'?
+   41 |    Fecha f = fecha(d,m,a);
+      |              ^~~~~
+      |              Fecha
+..\src\04Clase.cpp:43:10: warning: the address of 'std::string fechaToString(Fecha)' will never be NULL [-Waddress]
+   43 |  cout << fechaToString << endl; //el cout sabe compliar una estructura? NOOOO
+      |          ^~~~~~~~~~~~~
+..\src\04Clase.cpp:41:10: warning: unused variable 'f' [-Wunused-variable]
+   41 |    Fecha f = fecha(d,m,a);
+      |          ^
+Info: Nothing to build for Demo
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+Info: Nothing to build for 01L-ej02-CocienteEntre2Numeros
+Info: Nothing to build for 01L-ej03-DivisionEnteraYModulo
+Info: Nothing to build for 01L-ej04-MayorValorEntre2Numeros
+Info: Nothing to build for 01L-ej05-MayorYMenorValorEntre2Numeros
+Info: Nothing to build for 01L-ej06-MayorMedioYMenorValorEntre3Numeros
+Info: Nothing to build for 01L-ej07-TipoDeTrianguloSegunSusLados
+20:35:20 **** Incremental Build of configuration Debug for project 01L-ej29-ConjuntoDivididoPorValoresCero ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\01L-ej29-ConjuntoDivididoPorValoresCero.o" "..\\src\\01L-ej29-ConjuntoDivididoPorValoresCero.cpp" 
+..\src\01L-ej29-ConjuntoDivididoPorValoresCero.cpp: In function 'int main()':
+..\src\01L-ej29-ConjuntoDivididoPorValoresCero.cpp:48:9: error: ambiguous overload for 'operator>>' (operand types are 'std::istream' {aka 'std::basic_istream<char>'} and 'int')
+   48 |     cin >> 0;
+      |     ~~~ ^~ ~
+      |     |      |
+      |     |      int
+      |     std::istream {aka std::basic_istream<char>}
+In file included from c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\iostream:40,
+                 from ..\src\01L-ej29-ConjuntoDivididoPorValoresCero.cpp:9:
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\istream:120:7: note: candidate: 'std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(std::basic_istream<_CharT, _Traits>::__istream_type& (*)(std::basic_istream<_CharT, _Traits>::__istream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>]'
+  120 |       operator>>(__istream_type& (*__pf)(__istream_type&))
+      |       ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\istream:124:7: note: candidate: 'std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(std::basic_istream<_CharT, _Traits>::__ios_type& (*)(std::basic_istream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>; std::basic_istream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]'
+  124 |       operator>>(__ios_type& (*__pf)(__ios_type&))
+      |       ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\istream:131:7: note: candidate: 'std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>]'
+  131 |       operator>>(ios_base& (*__pf)(ios_base&))
+      |       ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\istream:259:7: note: candidate: 'std::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::operator>>(std::basic_istream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]'
+  259 |       operator>>(__streambuf_type* __sb);
+      |       ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\istream:803:5: note: candidate: 'std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, unsigned char*) [with _Traits = std::char_traits<char>]'
+  803 |     operator>>(basic_istream<char, _Traits>& __in, unsigned char* __s)
+      |     ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\istream:808:5: note: candidate: 'std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, signed char*) [with _Traits = std::char_traits<char>]'
+  808 |     operator>>(basic_istream<char, _Traits>& __in, signed char* __s)
+      |     ^~~~~~~~
+20:35:22 **** Incremental Build of configuration Debug for project 04Clase ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\04Clase.o" "..\\src\\04Clase.cpp" 
+..\src\04Clase.cpp: In function 'int main()':
+..\src\04Clase.cpp:22:10: warning: the address of 'std::string fechaToString(Fecha)' will never be NULL [-Waddress]
+   22 |  cout << fechaToString << endl; //el cout sabe compliar una estructura? NOOOO
+      |          ^~~~~~~~~~~~~
+..\src\04Clase.cpp:20:10: warning: variable 'f' set but not used [-Wunused-but-set-variable]
+   20 |    Fecha f = fecha(d,m,a);
+      |          ^
+g++ -o 04Clase.exe "src\\04Clase.o" 
+Info: Nothing to build for Demo
+Info: Nothing to build for 01L-ej07-TipoDeTrianguloSegunSusLados
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+Info: Nothing to build for 01L-ej02-CocienteEntre2Numeros
+Info: Nothing to build for 01L-ej03-DivisionEnteraYModulo
+Info: Nothing to build for 01L-ej04-MayorValorEntre2Numeros
+Info: Nothing to build for 01L-ej05-MayorYMenorValorEntre2Numeros
+Info: Nothing to build for 01L-ej06-MayorMedioYMenorValorEntre3Numeros
+Info: Nothing to build for 01L-ej07-TipoDeTrianguloSegunSusLados
+19:23:51 **** Rebuild of configuration Debug for project 01L-ej08-SepararLosAtributosDeUnaFecha ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\01L-ej08-SepararLosAtributosDeUnaFecha.o" "..\\src\\01L-ej08-SepararLosAtributosDeUnaFecha.cpp" 
+g++ -o 01L-ej08-SepararLosAtributosDeUnaFecha.exe "src\\01L-ej08-SepararLosAtributosDeUnaFecha.o" 
+19:23:54 **** Incremental Build of configuration Debug for project 01L-ej29-ConjuntoDivididoPorValoresCero ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\01L-ej29-ConjuntoDivididoPorValoresCero.o" "..\\src\\01L-ej29-ConjuntoDivididoPorValoresCero.cpp" 
+..\src\01L-ej29-ConjuntoDivididoPorValoresCero.cpp: In function 'int main()':
+..\src\01L-ej29-ConjuntoDivididoPorValoresCero.cpp:48:9: error: ambiguous overload for 'operator>>' (operand types are 'std::istream' {aka 'std::basic_istream<char>'} and 'int')
+   48 |     cin >> 0;
+      |     ~~~ ^~ ~
+      |     |      |
+      |     |      int
+      |     std::istream {aka std::basic_istream<char>}
+In file included from c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\iostream:40,
+                 from ..\src\01L-ej29-ConjuntoDivididoPorValoresCero.cpp:9:
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\istream:120:7: note: candidate: 'std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(std::basic_istream<_CharT, _Traits>::__istream_type& (*)(std::basic_istream<_CharT, _Traits>::__istream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>]'
+  120 |       operator>>(__istream_type& (*__pf)(__istream_type&))
+      |       ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\istream:124:7: note: candidate: 'std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(std::basic_istream<_CharT, _Traits>::__ios_type& (*)(std::basic_istream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>; std::basic_istream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]'
+  124 |       operator>>(__ios_type& (*__pf)(__ios_type&))
+      |       ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\istream:131:7: note: candidate: 'std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>]'
+  131 |       operator>>(ios_base& (*__pf)(ios_base&))
+      |       ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\istream:259:7: note: candidate: 'std::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::operator>>(std::basic_istream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]'
+  259 |       operator>>(__streambuf_type* __sb);
+      |       ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\istream:803:5: note: candidate: 'std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, unsigned char*) [with _Traits = std::char_traits<char>]'
+  803 |     operator>>(basic_istream<char, _Traits>& __in, unsigned char* __s)
+      |     ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\istream:808:5: note: candidate: 'std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, signed char*) [with _Traits = std::char_traits<char>]'
+  808 |     operator>>(basic_istream<char, _Traits>& __in, signed char* __s)
+      |     ^~~~~~~~
+Info: Nothing to build for 04Clase
+Info: Nothing to build for Demo
+Info: Nothing to build for 01L-ej08-SepararLosAtributosDeUnaFecha
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+20:22:04 **** Rebuild of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+20:25:00 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+20:25:12 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+20:58:29 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+20:58:52 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+20:46:52 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+20:58:04 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+21:01:30 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+21:15:02 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+21:16:47 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+21:19:43 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+21:20:32 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+21:56:58 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+21:57:40 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+21:58:42 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+21:59:51 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+19:43:48 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+19:44:31 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+19:46:38 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+19:54:39 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+19:54:51 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+19:56:45 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+19:57:29 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+19:58:48 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+19:59:02 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+20:21:06 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+20:22:21 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+22:37:08 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+22:40:14 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+22:42:54 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+22:51:54 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+22:52:12 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+22:53:36 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+22:59:14 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+22:59:36 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+23:23:41 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+23:24:01 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+23:25:58 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+10:31:56 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+In file included from ..\src\principal.cpp:6:
+..\src\biblioteca/funciones/strings.hpp: In function 'int indexOfN(std::string, char, int)':
+..\src\biblioteca/funciones/strings.hpp:187:10: error: expected primary-expression before ')' token
+  187 |    while()
+      |          ^
+10:32:48 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+In file included from ..\src\principal.cpp:6:
+..\src\biblioteca/funciones/strings.hpp: In function 'int indexOfN(std::string, char, int)':
+..\src\biblioteca/funciones/strings.hpp:192:14: warning: variable 'index' set but not used [-Wunused-but-set-variable]
+  192 |    int cont, index;
+      |              ^~~~~
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+10:33:14 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+In file included from ..\src\principal.cpp:6:
+..\src\biblioteca/funciones/strings.hpp: In function 'int indexOfN(std::string, char, int)':
+..\src\biblioteca/funciones/strings.hpp:192:14: warning: variable 'index' set but not used [-Wunused-but-set-variable]
+  192 |    int cont, index;
+      |              ^~~~~
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+10:33:55 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+In file included from ..\src\principal.cpp:6:
+..\src\biblioteca/funciones/strings.hpp: In function 'int indexOfN(std::string, char, int)':
+..\src\biblioteca/funciones/strings.hpp:192:14: warning: variable 'index' set but not used [-Wunused-but-set-variable]
+  192 |    int cont, index;
+      |              ^~~~~
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+10:34:12 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+In file included from ..\src\principal.cpp:6:
+..\src\biblioteca/funciones/strings.hpp: In function 'int indexOfN(std::string, char, int)':
+..\src\biblioteca/funciones/strings.hpp:192:14: warning: variable 'index' set but not used [-Wunused-but-set-variable]
+  192 |    int cont, index;
+      |              ^~~~~
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+18:20:14 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+18:20:56 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+18:21:07 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+18:21:34 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+18:37:34 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+c:/c/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file AlgoritmosAFondo_EMPTY_v2.7.11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:38:06 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+c:/c/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file AlgoritmosAFondo_EMPTY_v2.7.11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+18:38:52 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+18:39:06 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+18:39:26 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+22:17:16 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+..\src\principal.cpp: In function 'int main()':
+..\src\principal.cpp:22:9: warning: unused variable 'n' [-Wunused-variable]
+   22 |    char n = charToInt(c);
+      |         ^
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+22:18:22 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+..\src\principal.cpp: In function 'int main()':
+..\src\principal.cpp:22:8: warning: unused variable 'n' [-Wunused-variable]
+   22 |    int n = charToInt(c);
+      |        ^
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+22:18:46 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+22:19:21 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+22:20:30 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+22:38:54 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+22:39:09 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+22:41:43 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+22:47:47 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+22:47:54 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+19:24:01 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+19:25:19 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+19:25:46 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+19:27:18 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+19:29:13 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+19:51:50 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+c:/c/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file AlgoritmosAFondo_EMPTY_v2.7.11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Command canceled
+10:34:11 **** Rebuild of configuration Debug for project 01L-ej01-OperacionesAritmeticas ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\01L-ej01-OperacionesAritmeticas.o" "..\\src\\01L-ej01-OperacionesAritmeticas.cpp" 
+g++ -o 01L-ej01-OperacionesAritmeticas.exe "src\\01L-ej01-OperacionesAritmeticas.o" 
+10:34:19 **** Rebuild of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+10:34:44 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+10:35:00 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+10:35:21 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+..\src\principal.cpp: In function 'int main()':
+..\src\principal.cpp:25:12: warning: overflow in conversion from 'long long int' to 'int' changes value from '9999999999' to '1410065407' [-Woverflow]
+   25 |    int n = 9999999999;
+      |            ^~~~~~~~~~
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+10:46:57 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+10:54:45 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+10:57:02 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+10:57:27 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+11:01:50 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+11:03:12 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+11:03:47 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+11:04:10 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+..\src\principal.cpp: In function 'int main()':
+..\src\principal.cpp:26:8: warning: unused variable 'i' [-Wunused-variable]
+   26 |    int i =12345;
+      |        ^
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+11:34:21 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+11:34:26 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+In file included from ..\src\principal.cpp:6:
+..\src\biblioteca/funciones/strings.hpp: In function 'std::string intToString(int)':
+..\src\biblioteca/funciones/strings.hpp:294:4: error: expected initializer before 'while'
+  294 |    while(i > 0)
+      |    ^~~~~
+..\src\biblioteca/funciones/strings.hpp:291:8: warning: unused variable 'index' [-Wunused-variable]
+  291 |    int index = 0;
+      |        ^~~~~
+11:35:46 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+In file included from ..\src\principal.cpp:6:
+..\src\biblioteca/funciones/strings.hpp:291:4: warning: "/*" within comment [-Wcomment]
+  291 |    /*int index = 0;
+      |     
+In file included from ..\src\biblioteca/funciones/tokens.hpp:6,
+                 from ..\src\principal.cpp:7:
+..\src\biblioteca/funciones/strings.hpp:291:4: warning: "/*" within comment [-Wcomment]
+  291 |    /*int index = 0;
+      |     
+In file included from ..\src\biblioteca/tads/Coll.hpp:5,
+                 from ..\src\principal.cpp:14:
+..\src\biblioteca/tads/../funciones/strings.hpp:291:4: warning: "/*" within comment [-Wcomment]
+  291 |    /*int index = 0;
+      |     
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+11:35:57 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+In file included from ..\src\principal.cpp:6:
+..\src\biblioteca/funciones/strings.hpp:291:4: warning: "/*" within comment [-Wcomment]
+  291 |    /*int index = 0;
+      |     
+In file included from ..\src\biblioteca/funciones/tokens.hpp:6,
+                 from ..\src\principal.cpp:7:
+..\src\biblioteca/funciones/strings.hpp:291:4: warning: "/*" within comment [-Wcomment]
+  291 |    /*int index = 0;
+      |     
+In file included from ..\src\biblioteca/tads/Coll.hpp:5,
+                 from ..\src\principal.cpp:14:
+..\src\biblioteca/tads/../funciones/strings.hpp:291:4: warning: "/*" within comment [-Wcomment]
+  291 |    /*int index = 0;
+      |     
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+11:36:12 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+In file included from ..\src\principal.cpp:6:
+..\src\biblioteca/funciones/strings.hpp:291:4: warning: "/*" within comment [-Wcomment]
+  291 |    /*int index = 0;
+      |     
+In file included from ..\src\biblioteca/funciones/tokens.hpp:6,
+                 from ..\src\principal.cpp:7:
+..\src\biblioteca/funciones/strings.hpp:291:4: warning: "/*" within comment [-Wcomment]
+  291 |    /*int index = 0;
+      |     
+In file included from ..\src\biblioteca/tads/Coll.hpp:5,
+                 from ..\src\principal.cpp:14:
+..\src\biblioteca/tads/../funciones/strings.hpp:291:4: warning: "/*" within comment [-Wcomment]
+  291 |    /*int index = 0;
+      |     
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+11:36:28 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+In file included from ..\src\principal.cpp:6:
+..\src\biblioteca/funciones/strings.hpp:291:4: warning: "/*" within comment [-Wcomment]
+  291 |    /*int index = 0;
+      |     
+In file included from ..\src\biblioteca/funciones/tokens.hpp:6,
+                 from ..\src\principal.cpp:7:
+..\src\biblioteca/funciones/strings.hpp:291:4: warning: "/*" within comment [-Wcomment]
+  291 |    /*int index = 0;
+      |     
+In file included from ..\src\biblioteca/tads/Coll.hpp:5,
+                 from ..\src\principal.cpp:14:
+..\src\biblioteca/tads/../funciones/strings.hpp:291:4: warning: "/*" within comment [-Wcomment]
+  291 |    /*int index = 0;
+      |     
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+11:45:17 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+In file included from ..\src\principal.cpp:6:
+..\src\biblioteca/funciones/strings.hpp: In function 'std::string intToString(int)':
+..\src\biblioteca/funciones/strings.hpp:295:8: warning: unused variable 'muestra' [-Wunused-variable]
+  295 |    int muestra = i / (cantDivisiones - 1);
+      |        ^~~~~~~
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+11:47:41 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+In file included from ..\src\principal.cpp:6:
+..\src\biblioteca/funciones/strings.hpp: In function 'std::string intToString(int)':
+..\src\biblioteca/funciones/strings.hpp:295:8: warning: unused variable 'muestra' [-Wunused-variable]
+  295 |    int muestra = i / (cantDivisiones - 1);
+      |        ^~~~~~~
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+11:48:23 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+In file included from ..\src\principal.cpp:6:
+..\src\biblioteca/funciones/strings.hpp: In function 'std::string intToString(int)':
+..\src\biblioteca/funciones/strings.hpp:293:8: warning: unused variable 'cantDivisiones' [-Wunused-variable]
+  293 |    int cantDivisiones = digitCount(i);
+      |        ^~~~~~~~~~~~~~
+..\src\principal.cpp: In function 'int main()':
+..\src\principal.cpp:29:8: warning: unused variable 'muestra' [-Wunused-variable]
+   29 |    int muestra = i / (cantDivisiones - 1);
+      |        ^~~~~~~
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+12:19:06 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+In file included from ..\src\principal.cpp:6:
+..\src\biblioteca/funciones/strings.hpp: In function 'std::string intToString(int)':
+..\src\biblioteca/funciones/strings.hpp:291:8: warning: unused variable 'index' [-Wunused-variable]
+  291 |    int index = 0;
+      |        ^~~~~
+..\src\biblioteca/funciones/strings.hpp:295:8: warning: unused variable 'division' [-Wunused-variable]
+  295 |    int division;
+      |        ^~~~~~~~
+..\src\principal.cpp: In function 'int main()':
+..\src\principal.cpp:27:8: warning: unused variable 'cantDivisiones' [-Wunused-variable]
+   27 |    int cantDivisiones = digitCount(i);
+      |        ^~~~~~~~~~~~~~
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+12:19:18 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+In file included from ..\src\principal.cpp:6:
+..\src\biblioteca/funciones/strings.hpp: In function 'std::string intToString(int)':
+..\src\biblioteca/funciones/strings.hpp:291:8: warning: unused variable 'index' [-Wunused-variable]
+  291 |    int index = 0;
+      |        ^~~~~
+..\src\biblioteca/funciones/strings.hpp:295:8: warning: unused variable 'division' [-Wunused-variable]
+  295 |    int division;
+      |        ^~~~~~~~
+..\src\principal.cpp: In function 'int main()':
+..\src\principal.cpp:27:8: warning: unused variable 'cantDivisiones' [-Wunused-variable]
+   27 |    int cantDivisiones = digitCount(i);
+      |        ^~~~~~~~~~~~~~
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+15:49:24 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+In file included from ..\src\principal.cpp:6:
+..\src\biblioteca/funciones/strings.hpp: In function 'std::string intToString(int)':
+..\src\biblioteca/funciones/strings.hpp:291:8: warning: unused variable 'index' [-Wunused-variable]
+  291 |    int index = 0;
+      |        ^~~~~
+..\src\biblioteca/funciones/strings.hpp:295:8: warning: unused variable 'division' [-Wunused-variable]
+  295 |    int division;
+      |        ^~~~~~~~
+..\src\principal.cpp: In function 'int main()':
+..\src\principal.cpp:27:8: warning: unused variable 'cantDivisiones' [-Wunused-variable]
+   27 |    int cantDivisiones = digitCount(i);
+      |        ^~~~~~~~~~~~~~
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+15:49:44 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+In file included from ..\src\principal.cpp:6:
+..\src\biblioteca/funciones/strings.hpp: In function 'std::string intToString(int)':
+..\src\biblioteca/funciones/strings.hpp:291:8: warning: unused variable 'index' [-Wunused-variable]
+  291 |    int index = 0;
+      |        ^~~~~
+..\src\biblioteca/funciones/strings.hpp:295:8: warning: unused variable 'division' [-Wunused-variable]
+  295 |    int division;
+      |        ^~~~~~~~
+..\src\principal.cpp: In function 'int main()':
+..\src\principal.cpp:27:8: warning: unused variable 'cantDivisiones' [-Wunused-variable]
+   27 |    int cantDivisiones = digitCount(i);
+      |        ^~~~~~~~~~~~~~
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+16:48:32 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+17:01:01 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+In file included from ..\src\principal.cpp:6:
+..\src\biblioteca/funciones/strings.hpp: In function 'std::string intToString(int)':
+..\src\biblioteca/funciones/strings.hpp:301:7: error: break statement not within loop or switch
+  301 |       break;
+      |       ^~~~~
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+17:02:23 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+In file included from ..\src\principal.cpp:6:
+..\src\biblioteca/funciones/strings.hpp: In function 'std::string intToString(int)':
+..\src\biblioteca/funciones/strings.hpp:302:7: error: break statement not within loop or switch
+  302 |       break;
+      |       ^~~~~
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+17:02:52 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+c:/c/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file AlgoritmosAFondo_EMPTY_v2.7.11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:03:01 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+c:/c/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file AlgoritmosAFondo_EMPTY_v2.7.11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:07:01 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+c:/c/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file AlgoritmosAFondo_EMPTY_v2.7.11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:15:01 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+c:/c/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file AlgoritmosAFondo_EMPTY_v2.7.11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:15:33 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+c:/c/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file AlgoritmosAFondo_EMPTY_v2.7.11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:16:19 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+c:/c/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file AlgoritmosAFondo_EMPTY_v2.7.11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:17:04 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+c:/c/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file AlgoritmosAFondo_EMPTY_v2.7.11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:17:08 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+c:/c/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file AlgoritmosAFondo_EMPTY_v2.7.11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:17:13 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+c:/c/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file AlgoritmosAFondo_EMPTY_v2.7.11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:47:15 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+18:55:20 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+In file included from ..\src\principal.cpp:6:
+..\src\biblioteca/funciones/strings.hpp: In function 'std::string intToString(int)':
+..\src\biblioteca/funciones/strings.hpp:298:6: error: break statement not within loop or switch
+  298 |      break;
+      |      ^~~~~
+19:14:56 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+c:/c/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file AlgoritmosAFondo_EMPTY_v2.7.11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:15:42 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+19:15:53 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+19:16:18 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+19:40:09 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+19:40:35 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+20:02:14 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+20:03:07 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+20:05:42 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+20:05:44 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+20:06:11 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+19:16:28 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+19:18:42 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+19:19:39 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+19:21:03 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+19:21:54 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+19:22:09 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+19:22:17 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+19:22:27 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+19:22:41 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+19:52:51 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+19:54:17 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+19:54:52 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+19:54:59 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+20:07:35 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+20:08:04 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+20:08:38 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+20:09:06 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+20:12:48 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+20:39:12 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+In file included from ..\src\principal.cpp:6:
+..\src\biblioteca/funciones/strings.hpp: In function 'int lastIndexOf(std::string, char)':
+..\src\biblioteca/funciones/strings.hpp:199:8: warning: variable 'indexReturn' set but not used [-Wunused-but-set-variable]
+  199 |    int indexReturn;
+      |        ^~~~~~~~~~~
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+20:39:28 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+In file included from ..\src\principal.cpp:6:
+..\src\biblioteca/funciones/strings.hpp: In function 'int lastIndexOf(std::string, char)':
+..\src\biblioteca/funciones/strings.hpp:199:8: warning: variable 'indexReturn' set but not used [-Wunused-but-set-variable]
+  199 |    int indexReturn;
+      |        ^~~~~~~~~~~
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+20:40:08 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+In file included from ..\src\principal.cpp:6:
+..\src\biblioteca/funciones/strings.hpp: In function 'int lastIndexOf(std::string, char)':
+..\src\biblioteca/funciones/strings.hpp:199:8: warning: variable 'indexReturn' set but not used [-Wunused-but-set-variable]
+  199 |    int indexReturn;
+      |        ^~~~~~~~~~~
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+20:40:19 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+20:41:20 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+20:51:55 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+20:52:20 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+22:07:42 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+In file included from ..\src\principal.cpp:6:
+..\src\biblioteca/funciones/strings.hpp: In function 'int indexOfN(std::string, char, int)':
+..\src\biblioteca/funciones/strings.hpp:220:10: error: break statement not within loop or switch
+  220 |          break;
+      |          ^~~~~
+22:09:10 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+22:10:53 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for 01L-ej01-OperacionesAritmeticas
+22:17:02 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+22:17:16 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+22:23:27 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+In file included from ..\src\principal.cpp:6:
+..\src\biblioteca/funciones/strings.hpp: In function 'bool startsWith(std::string, std::string)':
+..\src\biblioteca/funciones/strings.hpp:414:12: warning: unused variable 'start' [-Wunused-variable]
+  414 |       bool start = true;
+      |            ^~~~~
+..\src\biblioteca/funciones/strings.hpp:410:9: warning: unused variable 'start' [-Wunused-variable]
+  410 |    bool start;
+      |         ^~~~~
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+22:23:35 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+In file included from ..\src\principal.cpp:6:
+..\src\biblioteca/funciones/strings.hpp: In function 'bool startsWith(std::string, std::string)':
+..\src\biblioteca/funciones/strings.hpp:414:12: warning: unused variable 'start' [-Wunused-variable]
+  414 |       bool start = true;
+      |            ^~~~~
+..\src\biblioteca/funciones/strings.hpp:410:9: warning: unused variable 'start' [-Wunused-variable]
+  410 |    bool start;
+      |         ^~~~~
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+22:25:49 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+In file included from ..\src\principal.cpp:6:
+..\src\biblioteca/funciones/strings.hpp: In function 'bool startsWith(std::string, std::string)':
+..\src\biblioteca/funciones/strings.hpp:410:9: warning: variable 'start' set but not used [-Wunused-but-set-variable]
+  410 |    bool start;
+      |         ^~~~~
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+22:25:57 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+In file included from ..\src\principal.cpp:6:
+..\src\biblioteca/funciones/strings.hpp: In function 'bool startsWith(std::string, std::string)':
+..\src\biblioteca/funciones/strings.hpp:410:9: warning: variable 'start' set but not used [-Wunused-but-set-variable]
+  410 |    bool start;
+      |         ^~~~~
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+22:26:21 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+In file included from ..\src\principal.cpp:6:
+..\src\biblioteca/funciones/strings.hpp: In function 'bool startsWith(std::string, std::string)':
+..\src\biblioteca/funciones/strings.hpp:410:9: warning: variable 'start' set but not used [-Wunused-but-set-variable]
+  410 |    bool start;
+      |         ^~~~~
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+22:26:43 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+22:26:53 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+19:31:39 **** Rebuild of configuration Debug for project 01L-ej01-OperacionesAritmeticas ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\01L-ej01-OperacionesAritmeticas.o" "..\\src\\01L-ej01-OperacionesAritmeticas.cpp" 
+g++ -o 01L-ej01-OperacionesAritmeticas.exe "src\\01L-ej01-OperacionesAritmeticas.o" 
+19:31:48 **** Rebuild of configuration Debug for project 01L-ej06-MayorMedioYMenorValorEntre3Numeros ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\01L-ej06-MayorMedioYMenorValorEntre3Numeros.o" "..\\src\\01L-ej06-MayorMedioYMenorValorEntre3Numeros.cpp" 
+g++ -o 01L-ej06-MayorMedioYMenorValorEntre3Numeros.exe "src\\01L-ej06-MayorMedioYMenorValorEntre3Numeros.o" 
+19:31:50 **** Rebuild of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+19:32:53 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+19:33:39 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+19:34:51 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+19:36:54 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+19:37:31 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+19:39:24 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+..\src\principal.cpp: In function 'int main()':
+..\src\principal.cpp:22:9: warning: unused variable 'p' [-Wunused-variable]
+   22 |    bool p = startsWith(s1, s2);
+      |         ^
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+19:39:46 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+21:13:51 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+21:14:19 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+21:14:39 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+21:50:09 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+21:51:45 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+21:52:49 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+21:53:55 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+22:11:23 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+22:11:34 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+22:20:10 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+22:21:01 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+22:22:19 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+22:22:31 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+22:38:19 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+22:38:45 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+22:44:48 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+18:22:28 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+18:25:48 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+18:26:25 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+18:26:39 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+18:28:46 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+18:43:19 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+18:43:32 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+19:24:08 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+19:27:35 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+..\src\principal.cpp: In function 'int main()':
+..\src\principal.cpp:34:12: warning: 'hola' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   34 |    cout << hola << endl;
+      |            ^~~~
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+19:42:15 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+19:42:24 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+19:58:47 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+19:58:57 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+20:00:58 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+20:01:24 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+20:15:28 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+20:15:37 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+20:16:00 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+20:16:09 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+20:35:10 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+20:35:35 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+20:36:42 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+20:37:07 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
