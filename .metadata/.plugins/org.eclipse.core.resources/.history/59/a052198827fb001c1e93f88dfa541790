@@ -1,0 +1,34 @@
+
+#ifndef _MAIN
+#define _MAIN
+
+#include <iostream>
+#include "biblioteca/funciones/strings.hpp"
+#include "biblioteca/funciones/tokens.hpp"
+#include "biblioteca/funciones/files.hpp"
+#include "biblioteca/tads/Array.hpp"
+#include "biblioteca/tads/Map.hpp"
+#include "biblioteca/tads/List.hpp"
+#include "biblioteca/tads/Stack.hpp"
+#include "biblioteca/tads/Queue.hpp"
+#include "biblioteca/tads/Coll.hpp"
+using namespace std;
+
+int main()
+{
+   //create coll
+   Coll<string> c = coll<string>();
+
+   //add elements
+   string name = "Meli";
+   collAdd<string>(c, name, stringToString);
+
+   int pos = 0;
+   cout << collGetAt<string>(c, pos, stringToString) << endl;
+
+
+   return 0;
+
+} //END MAIN
+
+#endif

@@ -18,9 +18,10 @@ int length(string s) //OK
 }
 
 /*1.1.1.2*/
-int charCount(string s,char c) //ok
+int charCount(string s,char c) //OK
 {
-   int index, cont = 0;
+   int index = 0;
+   int cont = 0;
 
    while(s[index] != '\0')
    {
@@ -36,18 +37,7 @@ int charCount(string s,char c) //ok
 /*1.1.1.3*/
 string substring(string s,int d,int h) //OK
 {
-   /*FAIL
-int index = 0;
-   string sub; //parte/fragmento que queremos acotar de la string original
-
-   while (index < h) //es menor xq h no es inclusivo y para que recorra de izq a derecha
-   {
-      sub[index] =  s[d + index];
-      index++; //incrementa en 1 hasta que sea menor que h (h = endIndex)
-   }
-   sub [h] = '\0';*/
-
-   string sub;
+   string sub = "";
 
    for (int index = d ; index < h; index++) //d menos 1 xq los indices empiezan en 0
    {
@@ -59,7 +49,7 @@ int index = 0;
 /*1.1.1.4 SOBRECARGA*/
 string substring(string s,int d) //OK
 {
-   string sub;
+   string sub = "";
    for (int index = d; index < length(s); index++) {
       sub += s[index];
    }
@@ -100,29 +90,8 @@ int indexOf(string s,char c,int offSet) //OK
       else
       {
          index = -1;
-      }
-   }
-
-   /*
-    * int p = -1;
-    * int cont = 0;
-    * int j = 0;
-    *
-    * for (int i = offSet; i<length(s) && j<length(toSearch); i++)
-    * {
-    *    if( s[i] == toSearch[j])
-    *    {
-    *       j++; //incrementas a j
-    *    }
-    *    else
-    *    {
-    *       j = 0; //vuelve a 0
-    *    }
-    *
-    * }//end for
-    *
-    * return p;
-    * */
+      } //end if
+   } //end for
 
    return index;
 }
@@ -256,7 +225,7 @@ int charToInt(char c) //OK
    {
       if ( c >= 'A' && c <= 'Z')
       {
-         cuentaAscii = c - 'A' + 10;
+         cuentaAscii = c - 'A' + 10; //cuenta para las letras
       }
    }
    return cuentaAscii;
@@ -265,35 +234,21 @@ int charToInt(char c) //OK
 /*1.1.1.12*/
 char intToChar(int i) //NO FUNCIONA
 {
-   char cuenta;
+   char a;
+   //hacemos como la asignacion de un char a un int con el "="
+   a=i;
+   //le sumamos 48 por '0'
+   a+=48;
 
-   if ( i>=0 && i<=9)
-   {
-      cuenta = '0'+i;
-   }
-   else
-   {
-      if ( i>='A' && i<='F')
-      {
-         cuenta = 'A'+i-10;
-      }
-   }
-
-   return cuenta;
+   if (a>57) a+=7; //un numero
+   if (a>90) a+=6; //mayuscula
+   if (a<123) return a; //minuscula
+   else return 0;
 }
 
 /**1.1.1.13*/
 int getDigit(int n,int i) //OK
 {
-   /*FAIL, NO ENTENDI ESTA RESOLUCION
-   int resto;
-   int potenciaBase10 = 10;
-
-   for (int i = 0; i < 10; ++i) {
-
-   }
-   resto = n % (i+1);*/
-
    int resto;
 
    while(i > 0)
@@ -301,8 +256,8 @@ int getDigit(int n,int i) //OK
       n /= 10; //al numero lo dividis x 10 en cada vuelva
       i--; // i = index con el cual buscamos el numero que esta en la posicion "i", decrementa
    }
-
    resto = n % 10;
+
    return resto;
 }
 
@@ -321,84 +276,138 @@ int digitCount(int n) //OK
 }
 
 /*1.1.1.15*/
-string intToString(int i) //NO TERMINADO
+string intToString(int i) //OK
 {
-   string conversion = "";
-   int contExtra = 0;
-   int cantDivisiones = 1; //porque sino en la division x 10 queda en 0
-   int cantDigitos = digitCount(i);
+   string convertido = "";
+   //conversion = i;
 
+   int length = digitCount(i) - 1;
 
-   while( contExtra == digitCount(i) )
+   for(int j=length; j>=0 ;j--) //decrementa xq getDigit lee de derecha a izq
    {
-
-      while(cantDivisiones < cantDigitos)
-      {
-         i /= 10;
-         cantDivisiones ++;
-      } //END 2do while
-      i = i % 10;
-      conversion += i;
-      cantDigitos --;
-      contExtra++;
-   } //END 1er while
-
-
-
-   return conversion;
-}
-
-int stringToInt(string s,int b) // NO TERMINADO
-{
-   for (int i = 0; i < length(s); ++i) {
-      //s[i] =
+      convertido += intToChar(getDigit(i, j));
    }
 
-   return 0;
+   return convertido;
 }
 
-int stringToInt(string s) // ok
+/*1.1.1.16*/
+int stringToInt(string s,int b) //OK
 {
-   return 0;
+   int convertido = 0;
+   int exp = length(s) - 1;
+
+   if (b == 2 || b == 8 || b == 10 || b == 16)
+   {
+      for (int i=0; i<length(s); i++)
+      {
+         convertido += charToInt((char)s[i])*pow(b, exp);
+         exp--;
+      } //END FOR
+   } //END IF
+
+   return convertido;
 }
 
-string charToString(char c)
+/*1.1.1.17*/
+int stringToInt(string s) //VER
 {
-   return "";
+   int convertido = 0;
+   int exp = length(s) - 1;
+   int base= 10;
+
+   for(int i=0; i < length(s); i++)
+   {
+      if(s[i]>=48 && s[i]<=57)
+      {
+         convertido += charToInt((char)s[i])*pow(base,exp);
+      }//END IF
+      exp--;
+   } //END FOR
+
+   return convertido;
 }
 
-char stringToChar(string s)
+/*1.1.1.18*/
+string charToString(char c) //OK
 {
-   return 'X';
+   string convertido = "";
+
+   convertido += c;
+
+   return convertido;
 }
 
-string stringToString(string s)
+/*1.1.1.19*/
+char stringToChar(string s) //OK
 {
-   return "";
+   char convertido;
+
+   convertido = s[0];
+
+   return convertido;
 }
 
-string doubleToString(double d)
+/*1.1.1.20*/
+string stringToString(string s) //OK
 {
-   return "";
+   return s;
 }
 
-double stringToDouble(string s)
+/*1.1.1.21*/
+string doubleToString(double d) //PROCESS
 {
-   return 1.1;
+   //   string convertido;
+   //   int parteEntera = trunc(d);
+   //   int decimal = (d%1); // Lo que sobra de dividir al número entre 1
+   //
+   //   convertido = intToString(parteEntera) + "." + intToString(decimal);
+   //   return convertido;
+
+   string newString="";
+   int count =0, entero;
+   entero=d;
+   newString = to_string(entero);
+   double e= d - entero;
+   while (d>entero && count<10){
+      d *=10;
+      count++;
+      entero = d;
+   }
+   e *= pow(10,count);
+   newString +="."+to_string(int(e));
+
+   return newString;
+}
+
+/*1.1.1.22*/
+double stringToDouble(string s) //PROCESS
+{
+   double convertido = 0;
+
+   for(int i=0; i < length(s);i++)
+   {
+      if (s[i]>=48 && s[i]<=57)
+      {
+         convertido += charToInt((char)s[i]);
+      }
+      else if(s[i] == 46)
+      {
+         continue;
+      }
+   }
+
+   return convertido;
 }
 
 /*1.1.1.23*/
 bool isEmpty(string s) //OK
 {
-   bool isEmpty;
+   bool isEmpty = false;
 
    if (length(s) == 0)
    {
       isEmpty = true;
-   }
-   else if (length(s) > 0)
-   {
-      isEmpty = false;
    }
 
    return isEmpty;
@@ -432,39 +441,13 @@ bool startsWith(string s,string x) //OK
 }
 
 /*1.1.1.25*/
-bool endsWith(string s,string x) //PROCESS NO FUNCIONA
+bool endsWith(string s,string x) //PONELE Q SI
 {
-   bool end = true;
-   int indexX = length(x) - 1;
-   int indexS = length(s) - 1;
-   int contador = 0;
-
-   while(x[indexX] != 0 && indexX > 0)
-   {
-      if (s[indexS] == x[indexX])
-      {
-         indexX--;
-         indexS--;
-         contador ++;
-      }
-      else
-      {
-         break;
-      }//END IF
-
-   }//END WHILE
-
-   if (contador == length(x))
-   {
-      end = true;
-   }
-   else
-   {
-      end = false;
-   }//END IF
-
-
-   return end;
+   //1er char de "x", para buscar su ult ocurrencia en "s"
+   char busqEnIndex = x[0];
+   //para usarlo en IndexOf y que busque "x" correctamente
+   int offSet = lastIndexOf(s, busqEnIndex);
+   return indexOf(s,x, offSet)!=1;
 }
 
 /*1.1.1.26*/
@@ -507,111 +490,288 @@ string insertAt(string s,int pos,char c) //OK
 {
    string stringWithCharAdded = "";
 
-   //en esta funcion subtring el ultimo parameteo no esta includo
+   //en esta funcion subtring el ultimo parametro no esta includo
    stringWithCharAdded = substring(s, 0, pos) + c + substring(s, pos, length(s));
 
    return stringWithCharAdded;
 }
 
 /*1.1.1.29*/
-string removeAt(string s,int pos) //PROCESS
+string removeAt(string s,int pos) //OK
 {
    string stringWithoutChar = "";
 
-      //en esta funcion subtring el ultimo parameteo no esta includo
-   //stringWithoutChar = substring(s, 0, pos) - c + substring(s, pos, length(s));
+   //en esta funcion subtring el ultimo parametro no esta includo
+   stringWithoutChar = substring(s, 0, pos) + substring(s, pos + 1, length(s));
 
-      return stringWithoutChar;
+   return stringWithoutChar;
 }
 
-string ltrim(string s)
+/*1.1.1.30 lefttrim*/
+string ltrim(string s) //OK
 {
-   return "";
+   int index;
+   string trimString;
+
+   for (int i = 0; i < length(s); ++i)
+   {
+      if (s[i] != 32) //32 es el caracter del espacio en ASCII
+      {
+         index = i;
+         break;
+      }//END IF
+
+   }//END FOR
+
+   trimString = substring(s, index, length(s));
+   return trimString;
 }
 
-string rtrim(string s)
+/*1.1.1.31*/
+string rtrim(string s) //OK
 {
-   return "";
+   int index;
+   string trimString;
+
+   if (s[length(s) - 1] == 32)
+   {
+      for (int i = length(s) - 1; i > 0 ; --i)
+      {
+         if (s[i] != 32)
+         {
+            index = i;
+            break;
+         } //END IF
+      } //END FOR
+
+      trimString = substring(s, 0, index+1);
+   }
+   else
+   {
+      trimString = s;
+   }//END 1ER IF
+
+   return trimString;
 }
 
-string trim(string s)
+/*1.1.1.32*/
+string trim(string s) //OK
 {
-   return "";
+   return rtrim(ltrim(s));
 }
 
-string replicate(char c,int n)
+/*1.1.1.33*/
+string replicate(char c,int n) //OK
 {
-   return "";
+   string cadena = "";
+
+   for (int i = 0; i < n; ++i) {
+      cadena += c;
+   }
+
+   return cadena;
 }
 
-string spaces(int n)
+/*1.1.1.34*/
+string spaces(int n) //OK
 {
-   return "";
+   string cadena = "";
+
+   for (int i = 1; i < n; ++i)
+   {
+      cadena += " ";
+   }//END FOR
+
+   return cadena;
 }
 
-string lpad(string s,int n,char c)
+/*1.1.1.35*/
+string lpad(string s,int n,char c) //OK
 {
-   return "";
+   string strleftpad = "";
+
+   if (length(s) == n)
+   {
+      strleftpad = s;
+   }
+   else if (length(s) < n)
+   {
+      strleftpad = replicate(c , n - length(s)) + s;
+   }
+
+   return strleftpad;
 }
 
-string rpad(string s,int n,char c)
+/*1.1.1.36*/
+string rpad(string s,int n,char c) //OK
 {
-   return "";
+   string strrigthpad = "";
+
+   if (length(s) == n)
+   {
+      strrigthpad = s;
+   }
+   else if (length (s) < n)
+   {
+      strrigthpad = s + replicate(c , n - length(s));
+   }//END IF
+
+   return strrigthpad;
 }
 
-string cpad(string s,int n,char c)
+/*1.1.1.37*/
+string cpad(string s,int n,char c) //OK
 {
-   return "";
+   string strLpad, strRpad;
+   int charFaltantes = n - length(s);
+
+   if (n > length(s))
+   {
+      strLpad = lpad(s,length(s) + (charFaltantes/2), c);
+      strRpad = rpad(strLpad,n, c);
+   }
+   else
+   {
+      strRpad = s;
+   }
+
+   return strRpad;
 }
 
-bool isDigit(char c)
+/*1.1.1.38*/
+bool isDigit(char c) //OK
 {
-   return true;
+   bool esDigito;
+
+   if ( c>=48 && c<=57 )
+   {
+      esDigito = true;
+   }
+
+   return esDigito;
 }
 
-bool isLetter(char c)
+/*1.1.1.39*/
+bool isLetter(char c) //OK
 {
-   return true;
+   bool esLetra;
+
+   //Si c esta entre 65 y 90 (A - Z) o entre 97 y 122 (a - z)
+   if ( (c>=65 && c<=90) || (c>=97 && c<=122) )
+   {
+      esLetra = true;
+   }
+
+   return esLetra;
 }
 
-bool isUpperCase(char c)
+/*1.1.1.40*/
+bool isUpperCase(char c) //OK
 {
-   return true;
+   bool upperCase;
+
+   if ( c>=65 && c<=90 )
+   {
+      upperCase = true;
+   }
+
+   return upperCase;
 }
 
-bool isLowerCase(char c)
+/*1.1.1.41*/
+bool isLowerCase(char c) //OK
 {
-   return true;
+   bool lowerCase;
+
+   if ( c>=97 && c<=122 )
+   {
+      lowerCase = true;
+   }
+
+   return lowerCase;
 }
 
-char toUpperCase(char c)
+/*1.1.1.42*/
+char toUpperCase(char c) //OK
 {
-   return 'X';
+
+   char charToUpper;
+
+   if ( c>=97 && c<=122 ) {
+      charToUpper = c - 32;
+   }
+   else
+   {
+      charToUpper = c;
+   }
+
+   return charToUpper;
 }
 
-char toLowerCase(char c)
+/*1.1.1.43*/
+char toLowerCase(char c) //OK
 {
-   return 'X';
+   char charToLower;
+
+   if ( c>=65 && c<=90 ) {
+      charToLower = c + 32;
+   }
+   else
+   {
+      charToLower = c;
+   }
+
+   return charToLower;
 }
 
-string toUpperCase(string s)
+/*1.1.1.44*/
+string toUpperCase(string s) //OK
 {
-   return "";
+   string stringToUpper;
+
+   for (int i = 0; i < length(s); ++i)
+   {
+      if (s[i]>=97 && s[i]<=122)
+      {
+         stringToUpper += s[i] - 32;
+      }
+      else
+      {
+         stringToUpper += s[i];
+      }
+   }
+
+   return stringToUpper;
 }
 
-string toLowerCase(string s)
+/*1.1.1.45*/
+string toLowerCase(string s) //OK
 {
-   return "";
+   string stringToLower;
+
+   for (int i = 0; i < length(s); ++i)
+   {
+      if (s[i]>=65 && s[i]<=90)
+      {
+         stringToLower += s[i] + 32;
+      } else
+      {
+         stringToLower += s[i];
+      } //END IF
+   } //END FOR
+   return stringToLower;
 }
 
-int cmpString(string a,string b)
+/*1.1.1.46*/
+int cmpString(string a,string b) //OK
 {
-   return 0;
+   return a<b?-1:a>b?1:0;
 }
 
-int cmpDouble(double a,double b)
+/*1.1.1.47*/
+int cmpDouble(double a,double b) //OK
 {
-   return 0;
+   return a<b?-1:a>b?1:0;
 }
 
 #endif

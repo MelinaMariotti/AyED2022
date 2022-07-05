@@ -16,13 +16,22 @@ using namespace std;
 
 int main()
 {
+   //create coll
+   Coll<string> c = coll<string>();
 
-   string s = "Esto es una prueba";
-   int pos = 6;
-   char c = 'X';
+   //add elements
+   collAdd<string>(c, "Meli", stringToString);
+   collAdd<string> (c, "Valen", stringToString);
 
-   string r = insertAt(s, pos, c);
-   cout << r << endl;
+   int pos = 0;
+   string r =collGetAt<string>(c, pos, stringToString);
+   cout << stringToString(r) << endl;
+
+   pos = 1;
+   string nuevo = "Ali";
+   collSetAt<string>(c, nuevo, pos, stringToString);
+   string res = collGetAt<string>(c, pos, stringToString);
+   cout << res << endl;
 
 
    return 0;

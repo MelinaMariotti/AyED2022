@@ -1,0 +1,39 @@
+
+#ifndef _MAIN
+#define _MAIN
+
+#include <iostream>
+#include "biblioteca/funciones/strings.hpp"
+#include "biblioteca/funciones/tokens.hpp"
+#include "biblioteca/funciones/files.hpp"
+#include "biblioteca/tads/Array.hpp"
+#include "biblioteca/tads/Map.hpp"
+#include "biblioteca/tads/List.hpp"
+#include "biblioteca/tads/Stack.hpp"
+#include "biblioteca/tads/Queue.hpp"
+#include "biblioteca/tads/Coll.hpp"
+using namespace std;
+
+int main()
+{
+/*5-setTokenAt(string& s, char sep, string t, int i)
+   string s = "John|Paul|George|Ringo";
+   char sep = '|';
+   string t = "Carlos";
+   int i = 3;
+   setTokenAt(s, sep, t, i);
+   cout << s << endl; //Out: John|Paul|George|Carlos
+
+   i = 0;
+   t = "Pablo";
+   setTokenAt(s, sep, t, i);
+   cout << s<< endl; //Out: Pablo|Paul|George|Carlos */
+
+
+
+
+   return 0;
+
+} //END MAIN
+
+#endif
