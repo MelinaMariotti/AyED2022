@@ -87,7 +87,7 @@ int orderedInsert(T arr[],int& len,T e,int cmpTT(T,T))
 }
 
 template <typename T>
-void sort(T arr[],int len,int cmpTT(T,T)) //Bubble sort mejorado
+void sort(T arr[],int len,int cmpTT(T,T))
 {
    //arranca con que NO esta ordenado
    bool ordenado = false;

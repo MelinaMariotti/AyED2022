@@ -3960,3 +3960,43 @@ g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o"
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
 g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+21:57:23 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+In file included from ..\src\biblioteca/tads/Array.hpp:6,
+                 from ..\src\principal.cpp:9:
+..\src\biblioteca/tads/../funciones/arrays.hpp: In instantiation of 'void sort(T*, int, int (*)(T, T)) [with T = int]':
+..\src\principal.cpp:110:26:   required from here
+..\src\biblioteca/tads/../funciones/arrays.hpp:101:17: warning: unused variable 'aux' [-Wunused-variable]
+  101 |             int aux = arr[i];
+      |                 ^~~
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+21:57:52 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+In file included from ..\src\biblioteca/tads/Array.hpp:6,
+                 from ..\src\principal.cpp:9:
+..\src\biblioteca/tads/../funciones/arrays.hpp: In instantiation of 'void sort(T*, int, int (*)(T, T)) [with T = int]':
+..\src\principal.cpp:87:26:   required from here
+..\src\biblioteca/tads/../funciones/arrays.hpp:101:17: warning: unused variable 'aux' [-Wunused-variable]
+  101 |             int aux = arr[i];
+      |                 ^~~
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+21:59:37 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+21:59:58 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+22:00:43 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+22:01:05 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 

@@ -87,26 +87,18 @@ int orderedInsert(T arr[],int& len,T e,int cmpTT(T,T))
 }
 
 template <typename T>
-void sort(T arr[],int len,int cmpTT(T,T)) //Bubble sort mejorado
+void sort(T arr[],int len,int cmpTT(T,T))
 {
-   //arranca con que NO esta ordenado
-   bool ordenado = false;
-
-   while( !ordenado ){ //mientras que NO ESTE ordenado itera para justamente ordenarlo
-
-      ordenado = true;
-      for(int i=0; i<len-1; i++){
-         if(cmpTT(arr[i], arr[i+1]) > 0){
-            //guardamos el 1er de los 2 elementos, para no pisarlo
-            T aux = arr[i];
+   for(int j=0; j<len; j++) //hace las len (cant) pasadas si o si
+   {
+      for(int i=0; i<len-1; i++) // len - 1 hace referencia al anteultimo elemento del array
+      {
+         if(cmpTT(arr[i], arr[i+1]) > 0)
+         {
+            T aux = arr[i]; //guardamos el valor de arr[i] en un aux porque sino estuviera esta linea pisariamos su valor
             arr[i] = arr[i+1];
             arr[i+1] = aux;
-
-            //si entro en este if es porque se tenia que permutar
-            //ponemos que sigue desordenado para que el while siga analizando el programa
-            ordenado = false;
          }
-         //si no entro al if es porque esta ordenado
       }
    }
 }
