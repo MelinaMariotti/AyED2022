@@ -6,19 +6,22 @@
 
 using namespace std;
 
+/*1.3.2.1*/
 template<typename T>
-struct Coll
+struct Coll //OK
 {
    //cadena tokenizada
    string token;
    char sep;
-   int pos;
+   int pos; //es necesario para collHasNext, next, etc
 };
 
+/*1.3.2.2*/
 template<typename T>
-Coll<T> coll(char sep)
+Coll<T> coll(char sep) //OK
 {
    Coll<T> c;
+   c.token;
    c.sep = sep;
    c.pos = 0;
    return c;
@@ -30,7 +33,7 @@ Coll<T> coll() //OK
    Coll<T> c;
    c.token = "";
    c.sep = '|';
-   c.pos = 0;
+   c.pos = 0; //es realmente necesario?
    return c;
 }
 
@@ -53,12 +56,12 @@ void collRemoveAll(Coll<T>& c) //OK
 template<typename T>
 void collRemoveAt(Coll<T>& c, int p) //OK
 {
-   c = removeTokenAt(c.token, c.sep, p);
+   removeTokenAt(c.token, c.sep, p);
 }
 /*1.3.2.7*/
 //add elements at the end of the coll
 template<typename T>
-int collAdd(Coll<T>& c,T t,string tToString(T))
+int collAdd(Coll<T>& c,T t,string tToString(T)) //OK
 {
    addToken(c.token, c.sep, tToString(t));
    return tokenCount(c.token, c.sep)-1; //-1 xq arranca de s[0]
@@ -75,49 +78,98 @@ void collSetAt(Coll<T>& c,T t,int p,string tToString(T)) //OK
 
 /*1.3.2.9*/
 template <typename T>
-T collGetAt(Coll<T> c,int p,T tFromString(string))
+T collGetAt(Coll<T> c,int p,T tFromString(string)) //OK
 {
-   T t;
-   t = tFromString(getTokenAt(c.token, c.sep, p));
+   T t = tFromString(getTokenAt(c.token, c.sep, p));
    return t;
 }
 
 /*1.3.2.10*/
 template <typename T, typename K>
-int collFind(Coll<T> c,K k,int cmpTK(T,K),T tFromString(string))
+int collFind(Coll<T> c,K k,int cmpTK(T,K),T tFromString(string)) //OK
 {
-   cmpTK(t, k)>0?
-   return 0;
+   for (int i=0; i < collSize<T>(c); i++)
+   {
+      T t = collGetAt<T>(c, i, tFromString);
+      if (cmpTK(t,k) == 0)
+      {
+         return i;
+      }
+   }
+   return -1;
 }
 
+/*1.3.2.11 advance insertion*/
 template <typename T>
-void collSort(Coll<T>& c,int cmpTT(T,T),T tFromString(string),string tToString(T))
+void collSort(Coll<T>& c,int cmpTT(T,T),T tFromString(string),string tToString(T)) //OK
 {
+   for(int i=0; i < collSize<T>(c) - 1; i++)
+   {
+      //j beggins in the next token
+      for (int j= i + 1; j < collSize<T>(c); j++)
+      {
+         //1rst the 1rst index
+         T a = collGetAt<T>(c, i, tFromString);
+         //next token
+         T b = collGetAt<T>(c, j, tFromString);
+
+         if (cmpTT (a,b) > 0) //a is grater than b
+         {
+            //intercambian posiciones
+            collSetAt<T>(c, a, j, tToString);
+            collSetAt<T>(c, b, i, tToString);
+         }
+      }
+   }
 }
 
 template<typename T>
-bool collHasNext(Coll<T> c)
+bool collHasNext(Coll<T> c) //OK
 {
-   return true;
+   return c.pos<collSize(c); //begins in 0 and increments in collNext
 }
 
 template<typename T>
-T collNext(Coll<T>& c,T tFromString(string))
+T collNext(Coll<T>& c,T tFromString(string)) //OK
 {
-   T t;
-   return t;
+   T getToken = collGetAt(c, c.pos, tFromString);
+   c.pos++; //
+   return getToken;
 }
 
 template<typename T>
-T collNext(Coll<T>& c,bool& endOfColl,T tFromString(string))
+T collNext(Coll<T>& c,bool& endOfColl,T tFromString(string)) //NO
 {
-   T t;
-   return t;
+   endOfColl = !collHasNext<T>(c);
+   if( endOfColl )
+   {
+      return {};
+   }
+   else
+   {
+      return collGetAt<T>(c, c.pos++, tFromString);
+   }
 }
 
 template<typename T>
-void collReset(Coll<T>& c)
+void collReset(Coll<T>& c) //OK
 {
+   c.pos = 0;
+}
+
+template<typename T>
+string collToString(Coll<T> c)
+{
+   return c.sep+c.token;
+}
+
+template<typename T>
+Coll<T> collFromString(string s)
+{
+   Coll<T> c;
+   c.sep=s[0];
+   c.token=substring(s,1);
+   return c;
 }
 
 #endif

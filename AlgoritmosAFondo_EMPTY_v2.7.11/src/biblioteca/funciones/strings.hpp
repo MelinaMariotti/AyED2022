@@ -232,7 +232,7 @@ int charToInt(char c) //OK
 }
 
 /*1.1.1.12*/
-char intToChar(int i) //NO FUNCIONA
+char intToChar(int i) //OK
 {
    char a;
    //hacemos como la asignacion de un char a un int con el "="
@@ -310,21 +310,14 @@ int stringToInt(string s,int b) //OK
 }
 
 /*1.1.1.17*/
-int stringToInt(string s) //VER
+int stringToInt(string s) //OK
 {
    int convertido = 0;
-   int exp = length(s) - 1;
-   int base= 10;
 
    for(int i=0; i < length(s); i++)
    {
-      if(s[i]>=48 && s[i]<=57)
-      {
-         convertido += charToInt((char)s[i])*pow(base,exp);
-      }//END IF
-      exp--;
+      convertido = convertido * 10 + (int(s[i] - 48));
    } //END FOR
-
    return convertido;
 }
 
@@ -355,49 +348,40 @@ string stringToString(string s) //OK
 }
 
 /*1.1.1.21*/
-string doubleToString(double d) //PROCESS
+string doubleToString(double d) //OK
 {
-   //   string convertido;
-   //   int parteEntera = trunc(d);
-   //   int decimal = (d%1); // Lo que sobra de dividir al número entre 1
-   //
-   //   convertido = intToString(parteEntera) + "." + intToString(decimal);
-   //   return convertido;
-
-   string newString="";
-   int count =0, entero;
-   entero=d;
-   newString = to_string(entero);
-   double e= d - entero;
-   while (d>entero && count<10){
-      d *=10;
-      count++;
-      entero = d;
-   }
-   e *= pow(10,count);
-   newString +="."+to_string(int(e));
-
-   return newString;
+   char buffer[100];
+   sprintf(buffer, "%lf", d);
+   string ret = buffer;
+   return ret;
 }
 
 /*1.1.1.22*/
-double stringToDouble(string s) //PROCESS
+double stringToDouble(string s)
 {
-   double convertido = 0;
-
-   for(int i=0; i < length(s);i++)
+   double before = 0;
+   double after = 0.0;
+   bool hasDot = false;
+   for (int i = 0; s[i] != '\0'; i++)
    {
-      if (s[i]>=48 && s[i]<=57)
+      if (s[i] == '.')
       {
-         convertido += charToInt((char)s[i]);
-      }
-      else if(s[i] == 46)
-      {
+         hasDot = true;
          continue;
       }
+      if (hasDot)
+      {
+         // Parte decimal
+         after += (double)charToInt((char)s[i]) / 10;
+         hasDot = false;
+      }
+      else
+      {
+         // Parte entera
+         before = before * 10 + (double)charToInt((char)s[i]);
+      }
    }
-
-   return convertido;
+   return before + after;
 }
 
 /*1.1.1.23*/
@@ -447,8 +431,23 @@ bool endsWith(string s,string x) //PONELE Q SI
    char busqEnIndex = x[0];
    //para usarlo en IndexOf y que busque "x" correctamente
    int offSet = lastIndexOf(s, busqEnIndex);
-   return indexOf(s,x, offSet)!=1;
+   return indexOf(s,x, offSet-1)!=-1;
 }
+
+/*
+bool endsWith(string s, string x)
+{
+   int indexOfWord = indexOf(s, x);
+   if (indexOfWord < 0)
+      // Esta contenida
+      return false;
+   else if (indexOfWord == 0)
+      // No esta al inicio
+      return false;
+   else if (length(s) - indexOfWord == length(x))
+      return true;
+   return false;
+}*/
 
 /*1.1.1.26*/
 bool contains(string s,char c) //OK

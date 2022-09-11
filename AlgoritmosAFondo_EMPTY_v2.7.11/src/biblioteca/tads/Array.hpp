@@ -10,12 +10,17 @@ using namespace std;
 template<typename T>
 struct Array
 {
+   T arr; //lo manejo como un puntero
+   int len;
+   int cap;
 };
 
 template<typename T>
 Array<T> array()
 {
    Array<T> ret;
+   ret.cap = 100;
+
    return ret;
 }
 

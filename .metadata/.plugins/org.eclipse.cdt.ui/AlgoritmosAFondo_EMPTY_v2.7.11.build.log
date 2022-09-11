@@ -1,7 +1,7 @@
-18:06:51 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+20:57:31 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
 g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
 
-18:06:54 Build Finished (took 3s.28ms)
+20:57:32 Build Finished (took 811ms)
 

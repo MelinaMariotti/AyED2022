@@ -11,6 +11,7 @@ template<typename T> void write(FILE* f, T t)
    // archivos. Esto se debe a un error en la implementacion de Windows.
    //
    // fseek(f,0,SEEK_CUR);
+   fwrite(&t, sizeof(T), 1, f);
 }
 
 template<typename T> T read(FILE* f)
