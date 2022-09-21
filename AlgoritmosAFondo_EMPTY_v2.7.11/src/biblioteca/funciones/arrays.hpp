@@ -67,23 +67,20 @@ int find(T arr[],int len,K k,int cmpTK(T,K))
 template <typename T>
 int orderedInsert(T arr[],int& len,T e,int cmpTT(T,T))
 {
-   int ret;
    for(int i=0; i<len; i++)
    {
+      //if arr[i] is greater than 'e', insert 'e' at pos 'i'
+      //p.e cmpTT{3-2}, insert 2 in a[i] and put i in a[i+1]
       if(cmpTT(arr[i], e) >= 0)
       {
          insert<T>(arr, len, e, i);
-         ret = i;
-         break;
+         return i;
+         // break; es necesario?
       }
    }
-   //si recorre todo el array con el for y no inserto, es porque debe ir a lo ultimo
-   if(cmpTT(arr[len], e) < 0)
-   {
-      ret = add<T>(arr, len, e);
-   }
+   //si recorre todo el array con el for y no inserto, es porque 'e' debe ir a lo ultimo
    //no ponemos len++ porque eso ya lo tienen incorporado las funciones insert/add
-   return ret; //retornamos la pos en la que insertamos 'e'
+   return add<T>(arr, len, e); //retornamos la pos en la que insertamos 'e'
 }
 
 template <typename T>
@@ -104,7 +101,7 @@ void sort(T arr[],int len,int cmpTT(T,T)) //Bubble sort mejorado
 
             //si entro en este if es porque se tenia que permutar
             //ponemos que sigue desordenado para que el while siga analizando el programa
-            ordenado = false;
+            ordenado = false; // esto es == a !ordenado
          }
          //si no entro al if es porque esta ordenado
       }

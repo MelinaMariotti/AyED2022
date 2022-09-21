@@ -4000,3 +4000,641 @@ g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o"
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
 g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+23:16:54 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+..\src\principal.cpp: In function 'int main()':
+..\src\principal.cpp:99:11: warning: variable 'promedio' set but not used [-Wunused-but-set-variable]
+   99 |    double promedio;
+      |           ^~~~~~~~
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+23:17:13 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+..\src\principal.cpp: In function 'int main()':
+..\src\principal.cpp:99:11: warning: variable 'promedio' set but not used [-Wunused-but-set-variable]
+   99 |    double promedio=0;
+      |           ^~~~~~~~
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+23:17:32 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+10:24:47 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+10:25:44 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+10:26:17 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+10:50:48 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+19:33:32 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+19:33:54 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+19:42:48 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+..\src\principal.cpp: In function 'int main()':
+..\src\principal.cpp:120:8: warning: unused variable 'y' [-Wunused-variable]
+  120 |    int y = 6;
+      |        ^
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+19:43:11 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+..\src\principal.cpp: In function 'int main()':
+..\src\principal.cpp:123:9: error: lvalue required as left operand of assignment
+  123 |    &r = y;
+      |         ^
+19:43:30 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+19:43:50 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+..\src\principal.cpp: In function 'int main()':
+..\src\principal.cpp:123:9: error: lvalue required as left operand of assignment
+  123 |    &r = y;
+      |         ^
+20:13:08 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+20:13:24 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+20:17:45 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+20:24:23 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+20:24:38 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+21:14:42 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+23:29:09 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+..\src\principal.cpp: In function 'int main()':
+..\src\principal.cpp:111:12: warning: 'arr' is used uninitialized in this function [-Wuninitialized]
+  111 |    cout << arr << endl;
+      |            ^~~
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+23:29:33 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+..\src\principal.cpp: In function 'int main()':
+..\src\principal.cpp:110:8: error: storage size of 'arr' isn't known
+  110 |    int arr[];
+      |        ^~~
+23:31:49 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+..\src\principal.cpp: In function 'int main()':
+..\src\principal.cpp:111:12: warning: 'arr' is used uninitialized in this function [-Wuninitialized]
+  111 |    cout << arr << endl;
+      |            ^~~
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+18:33:07 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+..\src\principal.cpp: In function 'int main()':
+..\src\principal.cpp:118:12: error: 'len' was not declared in this scope
+  118 |    cout << len << endl;
+      |            ^~~
+18:33:27 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+18:34:39 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+18:35:01 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+18:35:55 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+18:37:45 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+..\src\principal.cpp: In function 'int main()':
+..\src\principal.cpp:23:8: warning: unused variable 'pos1' [-Wunused-variable]
+   23 |    int pos1 = arrayAdd<int>(arr, 15);
+      |        ^~~~
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+18:38:02 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+18:38:20 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+18:39:56 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+18:40:39 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+18:41:30 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+18:53:14 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+18:53:27 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+18:53:56 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+18:55:33 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+18:55:53 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+18:57:56 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+..\src\principal.cpp: In function 'int main()':
+..\src\principal.cpp:36:8: warning: unused variable 'pos6' [-Wunused-variable]
+   36 |    int pos6 = arrayAdd(arr, 20);
+      |        ^~~~
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+18:58:23 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+18:25:20 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+18:26:14 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+18:26:36 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+18:27:03 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+18:33:27 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+18:56:37 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+18:58:39 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+18:58:53 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+19:19:59 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+In file included from ..\src\principal.cpp:9:
+..\src\biblioteca/tads/Array.hpp: In instantiation of 'void arraySet(Array<T>&, int, T) [with T = int]':
+..\src\principal.cpp:27:23:   required from here
+..\src\biblioteca/tads/Array.hpp:71:27: error: could not convert 'a.Array<int>::arr' from 'int*' to 'Array<int>'
+   71 |    T* ptr = arrayGet<T>(a.arr, p);
+      |                         ~~^~~
+      |                           |
+      |                           int*
+19:20:19 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+In file included from ..\src\principal.cpp:9:
+..\src\biblioteca/tads/Array.hpp: In instantiation of 'void arraySet(Array<T>&, int, T) [with T = int]':
+..\src\principal.cpp:27:28:   required from here
+..\src\biblioteca/tads/Array.hpp:71:27: error: could not convert 'a.Array<int>::arr' from 'int*' to 'Array<int>'
+   71 |    T* ptr = arrayGet<T>(a.arr, p);
+      |                         ~~^~~
+      |                           |
+      |                           int*
+19:25:15 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+19:27:29 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+22:23:31 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+In file included from ..\src\principal.cpp:9:
+..\src\biblioteca/tads/Array.hpp: In instantiation of 'void redimensionar(T*&, int&) [with T = std::__cxx11::basic_string<char>]':
+..\src\biblioteca/tads/Array.hpp:82:20:   required from 'void arrayInsert(Array<T>&, T, int) [with T = std::__cxx11::basic_string<char>]'
+..\src\principal.cpp:21:38:   required from here
+..\src\biblioteca/tads/Array.hpp:18:22: error: cannot convert 'std::__cxx11::basic_string<char>' to 'int' in assignment
+   18 |       newArr[i] = arr[i];
+      |                   ~~~^
+      |                      |
+      |                      std::__cxx11::basic_string<char>
+..\src\biblioteca/tads/Array.hpp:24:10: error: cannot convert 'int*' to 'std::__cxx11::basic_string<char>*' in assignment
+   24 |    arr = newArr;
+      |          ^~~~~~
+      |          |
+      |          int*
+22:29:17 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+In file included from ..\src\principal.cpp:9:
+..\src\biblioteca/tads/Array.hpp: In instantiation of 'void redimensionar(T*&, int&) [with T = std::__cxx11::basic_string<char>]':
+..\src\biblioteca/tads/Array.hpp:81:20:   required from 'void arrayInsert(Array<T>&, T, int) [with T = std::__cxx11::basic_string<char>]'
+..\src\principal.cpp:21:38:   required from here
+..\src\biblioteca/tads/Array.hpp:13:16: error: cannot convert 'int*' to 'std::__cxx11::basic_string<char>*' in initialization
+   13 |    T* newArr = new int[cap*2];
+      |                ^~~~~~~~~~~~~~
+      |                |
+      |                int*
+22:29:35 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+22:36:33 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+22:37:02 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+22:38:21 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+22:51:35 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+..\src\principal.cpp: In function 'int main()':
+..\src\principal.cpp:26:17: warning: unused variable 'p' [-Wunused-variable]
+   26 |         string* p = arrayGet<string>(arr, i);
+      |                 ^
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+22:51:52 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+22:52:29 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+22:53:40 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+22:53:59 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+22:56:00 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+23:17:42 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+..\src\principal.cpp: In function 'int main()':
+..\src\principal.cpp:64:9: error: no match for 'operator<<' (operand types are 'std::ostream' {aka 'std::basic_ostream<char>'} and 'Persona')
+   64 |    cout << *ptr << endl;
+      |    ~~~~ ^~ ~~~~
+      |    |       |
+      |    |       Persona
+      |    std::ostream {aka std::basic_ostream<char>}
+In file included from c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\iostream:39,
+                 from ..\src\principal.cpp:5:
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:108:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  108 |       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+      |       ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:108:36: note:   no known conversion for argument 1 from 'Persona' to 'std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&)' {aka 'std::basic_ostream<char>& (*)(std::basic_ostream<char>&)'}
+  108 |       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+      |                  ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:117:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]'
+  117 |       operator<<(__ios_type& (*__pf)(__ios_type&))
+      |       ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:117:32: note:   no known conversion for argument 1 from 'Persona' to 'std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&)' {aka 'std::basic_ios<char>& (*)(std::basic_ios<char>&)'}
+  117 |       operator<<(__ios_type& (*__pf)(__ios_type&))
+      |                  ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:127:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  127 |       operator<<(ios_base& (*__pf) (ios_base&))
+      |       ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:127:30: note:   no known conversion for argument 1 from 'Persona' to 'std::ios_base& (*)(std::ios_base&)'
+  127 |       operator<<(ios_base& (*__pf) (ios_base&))
+      |                  ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:166:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  166 |       operator<<(long __n)
+      |       ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:166:23: note:   no known conversion for argument 1 from 'Persona' to 'long int'
+  166 |       operator<<(long __n)
+      |                  ~~~~~^~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:170:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  170 |       operator<<(unsigned long __n)
+      |       ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:170:32: note:   no known conversion for argument 1 from 'Persona' to 'long unsigned int'
+  170 |       operator<<(unsigned long __n)
+      |                  ~~~~~~~~~~~~~~^~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:174:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  174 |       operator<<(bool __n)
+      |       ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:174:23: note:   no known conversion for argument 1 from 'Persona' to 'bool'
+  174 |       operator<<(bool __n)
+      |                  ~~~~~^~~
+In file included from c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:702,
+                 from c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\iostream:39,
+                 from ..\src\principal.cpp:5:
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\ostream.tcc:91:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]'
+   91 |     basic_ostream<_CharT, _Traits>::
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\ostream.tcc:92:22: note:   no known conversion for argument 1 from 'Persona' to 'short int'
+   92 |     operator<<(short __n)
+      |                ~~~~~~^~~
+In file included from c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\iostream:39,
+                 from ..\src\principal.cpp:5:
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:181:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  181 |       operator<<(unsigned short __n)
+      |       ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:181:33: note:   no known conversion for argument 1 from 'Persona' to 'short unsigned int'
+  181 |       operator<<(unsigned short __n)
+      |                  ~~~~~~~~~~~~~~~^~~
+In file included from c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:702,
+                 from c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\iostream:39,
+                 from ..\src\principal.cpp:5:
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\ostream.tcc:105:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]'
+  105 |     basic_ostream<_CharT, _Traits>::
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\ostream.tcc:106:20: note:   no known conversion for argument 1 from 'Persona' to 'int'
+  106 |     operator<<(int __n)
+      |                ~~~~^~~
+In file included from c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\iostream:39,
+                 from ..\src\principal.cpp:5:
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:192:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  192 |       operator<<(unsigned int __n)
+      |       ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:192:31: note:   no known conversion for argument 1 from 'Persona' to 'unsigned int'
+  192 |       operator<<(unsigned int __n)
+      |                  ~~~~~~~~~~~~~^~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:201:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  201 |       operator<<(long long __n)
+      |       ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:201:28: note:   no known conversion for argument 1 from 'Persona' to 'long long int'
+  201 |       operator<<(long long __n)
+      |                  ~~~~~~~~~~^~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:205:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  205 |       operator<<(unsigned long long __n)
+      |       ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:205:37: note:   no known conversion for argument 1 from 'Persona' to 'long long unsigned int'
+  205 |       operator<<(unsigned long long __n)
+      |                  ~~~~~~~~~~~~~~~~~~~^~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:220:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  220 |       operator<<(double __f)
+      |       ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:220:25: note:   no known conversion for argument 1 from 'Persona' to 'double'
+  220 |       operator<<(double __f)
+      |                  ~~~~~~~^~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:224:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  224 |       operator<<(float __f)
+      |       ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:224:24: note:   no known conversion for argument 1 from 'Persona' to 'float'
+  224 |       operator<<(float __f)
+      |                  ~~~~~~^~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:232:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  232 |       operator<<(long double __f)
+      |       ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:232:30: note:   no known conversion for argument 1 from 'Persona' to 'long double'
+  232 |       operator<<(long double __f)
+      |                  ~~~~~~~~~~~~^~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:245:7: note: candidate: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]'
+  245 |       operator<<(const void* __p)
+      |       ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:245:30: note:   no known conversion for argument 1 from 'Persona' to 'const void*'
+  245 |       operator<<(const void* __p)
+      |                  ~~~~~~~~~~~~^~~
+In file included from c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:702,
+                 from c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\iostream:39,
+                 from ..\src\principal.cpp:5:
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\ostream.tcc:119:5: note: candidate: 'std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]'
+  119 |     basic_ostream<_CharT, _Traits>::
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\ostream.tcc:120:34: note:   no known conversion for argument 1 from 'Persona' to 'std::basic_ostream<char>::__streambuf_type*' {aka 'std::basic_streambuf<char>*'}
+  120 |     operator<<(__streambuf_type* __sbin)
+      |                ~~~~~~~~~~~~~~~~~~^~~~~~
+In file included from c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\string:55,
+                 from c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\locale_classes.h:40,
+                 from c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\ios_base.h:41,
+                 from c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ios:42,
+                 from c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:38,
+                 from c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\iostream:39,
+                 from ..\src\principal.cpp:5:
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\basic_string.h:6416:5: note: candidate: 'template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)'
+ 6416 |     operator<<(basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\basic_string.h:6416:5: note:   template argument deduction/substitution failed:
+..\src\principal.cpp:64:13: note:   'Persona' is not derived from 'const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>'
+   64 |    cout << *ptr << endl;
+      |             ^~~
+In file included from c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\ios_base.h:46,
+                 from c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ios:42,
+                 from c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:38,
+                 from c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\iostream:39,
+                 from ..\src\principal.cpp:5:
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\system_error:217:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)'
+  217 |     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+      |     ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\system_error:217:5: note:   template argument deduction/substitution failed:
+..\src\principal.cpp:64:12: note:   cannot convert '* ptr' (type 'Persona') to type 'const std::error_code&'
+   64 |    cout << *ptr << endl;
+      |            ^~~~
+In file included from c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\iostream:39,
+                 from ..\src\principal.cpp:5:
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:506:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)'
+  506 |     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+      |     ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:506:5: note:   template argument deduction/substitution failed:
+..\src\principal.cpp:64:13: note:   deduced conflicting types for parameter '_CharT' ('char' and 'Persona')
+   64 |    cout << *ptr << endl;
+      |             ^~~
+In file included from c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\iostream:39,
+                 from ..\src\principal.cpp:5:
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:511:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)'
+  511 |     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+      |     ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:511:5: note:   template argument deduction/substitution failed:
+..\src\principal.cpp:64:12: note:   cannot convert '* ptr' (type 'Persona') to type 'char'
+   64 |    cout << *ptr << endl;
+      |            ^~~~
+In file included from c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\iostream:39,
+                 from ..\src\principal.cpp:5:
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:517:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)'
+  517 |     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+      |     ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:517:5: note:   template argument deduction/substitution failed:
+..\src\principal.cpp:64:12: note:   cannot convert '* ptr' (type 'Persona') to type 'char'
+   64 |    cout << *ptr << endl;
+      |            ^~~~
+In file included from c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\iostream:39,
+                 from ..\src\principal.cpp:5:
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:523:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)'
+  523 |     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+      |     ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:523:5: note:   template argument deduction/substitution failed:
+..\src\principal.cpp:64:12: note:   cannot convert '* ptr' (type 'Persona') to type 'signed char'
+   64 |    cout << *ptr << endl;
+      |            ^~~~
+In file included from c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\iostream:39,
+                 from ..\src\principal.cpp:5:
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:528:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)'
+  528 |     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+      |     ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:528:5: note:   template argument deduction/substitution failed:
+..\src\principal.cpp:64:12: note:   cannot convert '* ptr' (type 'Persona') to type 'unsigned char'
+   64 |    cout << *ptr << endl;
+      |            ^~~~
+In file included from c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\iostream:39,
+                 from ..\src\principal.cpp:5:
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:548:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)'
+  548 |     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+      |     ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:548:5: note:   template argument deduction/substitution failed:
+..\src\principal.cpp:64:13: note:   mismatched types 'const _CharT*' and 'Persona'
+   64 |    cout << *ptr << endl;
+      |             ^~~
+In file included from c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:702,
+                 from c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\iostream:39,
+                 from ..\src\principal.cpp:5:
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\ostream.tcc:321:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)'
+  321 |     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+      |     ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+..\src\principal.cpp:64:12: note:   cannot convert '* ptr' (type 'Persona') to type 'const char*'
+   64 |    cout << *ptr << endl;
+      |            ^~~~
+In file included from c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\iostream:39,
+                 from ..\src\principal.cpp:5:
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:565:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)'
+  565 |     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+      |     ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:565:5: note:   template argument deduction/substitution failed:
+..\src\principal.cpp:64:12: note:   cannot convert '* ptr' (type 'Persona') to type 'const char*'
+   64 |    cout << *ptr << endl;
+      |            ^~~~
+In file included from c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\iostream:39,
+                 from ..\src\principal.cpp:5:
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:578:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)'
+  578 |     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+      |     ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:578:5: note:   template argument deduction/substitution failed:
+..\src\principal.cpp:64:12: note:   cannot convert '* ptr' (type 'Persona') to type 'const signed char*'
+   64 |    cout << *ptr << endl;
+      |            ^~~~
+In file included from c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\iostream:39,
+                 from ..\src\principal.cpp:5:
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:583:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)'
+  583 |     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+      |     ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:583:5: note:   template argument deduction/substitution failed:
+..\src\principal.cpp:64:12: note:   cannot convert '* ptr' (type 'Persona') to type 'const unsigned char*'
+   64 |    cout << *ptr << endl;
+      |            ^~~~
+In file included from c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\iostream:39,
+                 from ..\src\principal.cpp:5:
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:691:5: note: candidate: 'template<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&)'
+  691 |     operator<<(_Ostream&& __os, const _Tp& __x)
+      |     ^~~~~~~~
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:691:5: note:   template argument deduction/substitution failed:
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream: In substitution of 'template<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&) [with _Ostream = std::basic_ostream<char>&; _Tp = Persona]':
+..\src\principal.cpp:64:13:   required from here
+c:\c\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream:691:5: error: no type named 'type' in 'struct std::enable_if<false, std::basic_ostream<char>&>'
+23:18:19 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+23:33:02 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+23:34:25 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+23:37:15 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+23:57:35 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+23:59:38 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+Info: Nothing to build for AlgoritmosAFondo_EMPTY_v2.7.11
+00:12:13 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+00:13:44 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
+00:14:31 **** Incremental Build of configuration Debug for project AlgoritmosAFondo_EMPTY_v2.7.11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -o AlgoritmosAFondo_EMPTY_v2.7.11.exe "src\\principal.o" 
