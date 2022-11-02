@@ -1,0 +1,96 @@
+
+#ifndef _MAIN
+#define _MAIN
+
+#include <iostream>
+#include "biblioteca/funciones/strings.hpp"
+#include "biblioteca/funciones/tokens.hpp"
+#include "biblioteca/funciones/files.hpp"
+#include "biblioteca/tads/Array.hpp"
+#include "biblioteca/tads/Map.hpp"
+#include "biblioteca/tads/List.hpp"
+#include "biblioteca/tads/Stack.hpp"
+#include "biblioteca/tads/Queue.hpp"
+#include "biblioteca/tads/Coll.hpp"
+using namespace std;
+
+//void mostrar(Node* p){ //recibe un puntero como parametro
+//
+//}
+
+//void procesarMovimientoDeCajas(Mov registroMovimiento,Map<int,RCaja> mapCajas){
+//
+//
+//
+//   //si es una entrada
+//   if ( registroMovimiento.mov == 'E'){
+//      //pto 1 -> encolamos
+//    //  queueEnqueue();
+//   } //sino, es una salida 'S' -> desencolamos
+//   else{
+//
+//   }
+//}
+//
+//void pto1(Map<int,RCaja> mapCajas){
+//
+//}
+//
+//void pto2(Map<int,RCaja> mapCajas){
+//
+//}
+//
+//void pto3(Map<int,RCaja> mapCajas){
+//
+//}
+
+void mostrar(Node<int>* p){
+
+   Node<int>* aux = p;
+   while ( aux != NULL){
+      int inf = aux->info;
+      cout << inf ;
+      aux = aux->sig;
+   }
+}
+
+int cmpIntDes(int a, int b){
+   return b-a;
+}
+
+int main()
+{
+
+   //   //recorrer el archivo e ir descubriendo las cajas
+   //   Map<int, RCaja> mapCajas = map<int, RCaja>();
+   //   FILE* f = fopen("MOVIMIENTOS.dat","r+b");
+   //
+   //   Mov registroMovimiento = read<Mov>(f);
+   //
+   //   while( !feof(f)){
+   //
+   //      procesarMovimientoDeCajas(registroMovimiento, mapCajas);
+   //   }
+   //
+   //   pto1();
+   //   pto2();
+   //   pto3();
+
+
+   //creamos un nodo vacio
+   Node<int>* p = NULL;
+
+   add<int>(p,3);
+   add<int>(p,1);
+   add<int>(p,2);
+   add<int>(p,3);
+   add<int>(p,2);
+   add<int>(p,1); // 3 1 2 3 2 1
+
+   bool empty = isEmpty(p);
+
+   cout << empty << endl; // 0
+   return 0;
+} //END MAIN
+
+#endif

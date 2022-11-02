@@ -1,0 +1,105 @@
+
+#ifndef _MAIN
+#define _MAIN
+
+#include <iostream>
+#include "biblioteca/funciones/strings.hpp"
+#include "biblioteca/funciones/tokens.hpp"
+#include "biblioteca/funciones/files.hpp"
+#include "biblioteca/tads/Array.hpp"
+#include "biblioteca/tads/Map.hpp"
+#include "biblioteca/tads/List.hpp"
+#include "biblioteca/tads/Stack.hpp"
+#include "biblioteca/tads/Queue.hpp"
+#include "biblioteca/tads/Coll.hpp"
+using namespace std;
+
+struct Persona
+{
+   string nombre;
+   int dni;
+};
+
+string personaToString(Persona x)
+{
+   char sep = 1;
+   string sNombre=x.nombre;
+   string sDni=to_string(x.dni);
+   return sNombre+sep+sDni;
+}
+
+Persona personaFromString(string s)
+{
+   char sep = 1;
+   Persona x;
+   string t0 = getTokenAt(s,sep,0);
+   x.nombre=t0;
+   string t1 = getTokenAt(s,sep,1);
+   x.dni=stoi(t1);
+   return x;
+}
+
+Persona persona(string nombre,int dni)
+{
+   Persona a;
+   a.nombre = nombre;
+   a.dni = dni;
+   return a;
+}
+
+//funcion para arrayFind
+int cmpPersonaDni(Persona p, int dni){
+   return p.dni-dni;
+}
+
+int cmpInt(int a, int b){
+   return a-b;
+}
+
+int cmpIntDes(int a, int b){
+   return b-a;
+}
+
+int main()
+{
+//   //revisar porque si uso este arrayGet
+//   //no deuvleve NULL para posiciones que no definimos
+//   Array<int> arr = array<int>();
+//   arrayAdd<int>(arr, 1);
+//
+//   int* p = arrayGet<int>(arr, 45);
+//   cout << p << endl;
+
+   Map<string,int> m = map<string,int>();
+   //add the pair to the map
+   mapPut<string,int>(m,"tres",3);
+   mapPut<string,int>(m,"uno",1);
+   mapPut<string,int>(m,"cuatro",4);
+   mapPut<string,int>(m,"dos",2);
+
+   cout << "----Map BEFORE sorting----" << endl;
+
+   mapReset<string,int>(m);
+   while( mapHasNext<string,int>(m)){
+      string key = mapNextKey<string,int>(m);
+      int* value = mapGetValue<string,int>(m, key);
+      cout << "Para la key: " << key << " . Tiene el value: " << *value << endl;
+   }
+
+   //sort the map by key
+   mapSortByKeys<string,int>(m,cmpString);
+
+   cout << "\n" << "----After sorting----" << endl;
+
+   mapReset<string,int>(m);
+   while( mapHasNext<string,int>(m) ){
+      string k = mapNextKey<string,int>(m);
+      int* v = mapGetValue<string,int>(m,k);
+      cout << "Para la key: " << k << " . Tiene el value: " << *v << endl;
+   }
+
+
+   return 0;
+} //END MAIN
+
+#endif

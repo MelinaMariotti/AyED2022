@@ -15,11 +15,15 @@ void redimensionar(T*& arr, int& cap){
    //lo hacemos hasta cap xq total el size del nuevo arr contendra el doble de cap
    for(int i=0; i<cap; i++)
    {
+      //pasamos los elementos de arr a -> newArr
       newArr[i] = arr[i];
    }
 
-   //una vez que pasamos los datos al newArr, le "devolvemos" la direc de memoria del arr al S.O
+   //una vez que pasamos los datos al newArr, le "devolvemos" la memoria del arr al S.O
+   //liberamos arr
    delete arr;
+
+   //hacemos que arr apunte a newArr
    arr = newArr;
 
    cap*=2;

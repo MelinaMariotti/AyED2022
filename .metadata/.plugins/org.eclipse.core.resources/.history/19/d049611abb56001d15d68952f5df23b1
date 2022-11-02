@@ -1,0 +1,242 @@
+#ifndef _MAINHPP
+#define _MAINHPP
+#include <iostream>
+#include <iostream>
+#include <sstream>
+#include <string>
+#include <string.h>
+#include <stdlib.h>
+#include "biblioteca/funciones/strings.hpp"
+#include "biblioteca/funciones/tokens.hpp"
+#include "biblioteca/tads/Coll.hpp"
+using namespace std;
+
+struct Fecha
+{
+   int d;
+   int m;
+   int a;
+};
+
+struct Socio
+{
+   int idSocio;
+   char nombre[50];
+   int idSocioRef;
+   Fecha fechaIngreso;
+   double totalVentasAcumuladas;
+   double liquidacionAnterior;
+   double liquidacionesAcumuladas;
+};
+
+struct RSocio
+{
+   Socio socio;
+   double acumComision;
+   double acumPrecioVentas;
+};
+
+struct Venta
+{
+   int idSocio;
+   int idProducto;
+   char observ[100];
+   Fecha fecha;
+   double importe;
+};
+
+string fechaToDebug(Fecha x)
+{
+   stringstream sout;
+   sout<< "[";
+   sout << x.d,m,a;
+   sout<< "]";
+   return sout.str();
+}
+
+string fechaToDebug(string mssg,Fecha x)
+{
+   stringstream sout;
+   sout<< mssg<<":[";
+   sout << x.d,m,a;
+   sout<< "]";
+   return sout.str();
+}
+
+Fecha fecha(int d,m,a)
+{
+   Fecha a;
+   a.d,m,a = d,m,a;
+   return a;
+}
+
+bool fechaEquals(Fecha a,Fecha b)
+{
+   if(a.d,m,a!=b.d,m,a) return false;
+   return true;
+}
+
+string socioToDebug(Socio x)
+{
+   stringstream sout;
+   sout<< "[";
+   sout << x.idSocio;
+   sout << ",";
+   sout << x.nombre;
+   sout << ",";
+   sout << x.idSocioRef;
+   sout << ",";
+   sout << fechaToDebug(x.fechaIngreso);
+   sout << ",";
+   sout << x.totalVentasAcumuladas;
+   sout << ",";
+   sout << x.liquidacionAnterior;
+   sout << ",";
+   sout << x.liquidacionesAcumuladas;
+   sout<< "]";
+   return sout.str();
+}
+
+string socioToDebug(string mssg,Socio x)
+{
+   stringstream sout;
+   sout<< mssg<<":[";
+   sout << x.idSocio;
+   sout << ",";
+   sout << x.nombre;
+   sout << ",";
+   sout << x.idSocioRef;
+   sout << ",";
+   sout << fechaToDebug(x.fechaIngreso);
+   sout << ",";
+   sout << x.totalVentasAcumuladas;
+   sout << ",";
+   sout << x.liquidacionAnterior;
+   sout << ",";
+   sout << x.liquidacionesAcumuladas;
+   sout<< "]";
+   return sout.str();
+}
+
+Socio socio(int idSocio,string nombre,int idSocioRef,Fecha fechaIngreso,double totalVentasAcumuladas,double liquidacionAnterior,double liquidacionesAcumuladas)
+{
+   Socio a;
+   a.idSocio = idSocio;
+   strcpy(a.nombre,nombre.c_str());
+   a.idSocioRef = idSocioRef;
+   a.fechaIngreso = fechaIngreso;
+   a.totalVentasAcumuladas = totalVentasAcumuladas;
+   a.liquidacionAnterior = liquidacionAnterior;
+   a.liquidacionesAcumuladas = liquidacionesAcumuladas;
+   return a;
+}
+
+bool socioEquals(Socio a,Socio b)
+{
+   if(a.idSocio!=b.idSocio) return false;
+   if(a.idSocioRef!=b.idSocioRef) return false;
+   if(!fechaEquals(a.fechaIngreso,b.fechaIngreso)) return false;
+   if(a.totalVentasAcumuladas!=b.totalVentasAcumuladas) return false;
+   if(a.liquidacionAnterior!=b.liquidacionAnterior) return false;
+   if(a.liquidacionesAcumuladas!=b.liquidacionesAcumuladas) return false;
+   return true;
+}
+
+string rSocioToDebug(RSocio x)
+{
+   stringstream sout;
+   sout<< "[";
+   sout << socioToDebug(x.socio);
+   sout << ",";
+   sout << x.acumComision;
+   sout << ",";
+   sout << x.acumPrecioVentas;
+   sout<< "]";
+   return sout.str();
+}
+
+string rSocioToDebug(string mssg,RSocio x)
+{
+   stringstream sout;
+   sout<< mssg<<":[";
+   sout << socioToDebug(x.socio);
+   sout << ",";
+   sout << x.acumComision;
+   sout << ",";
+   sout << x.acumPrecioVentas;
+   sout<< "]";
+   return sout.str();
+}
+
+RSocio rSocio(Socio socio,double acumComision,double acumPrecioVentas)
+{
+   RSocio b;
+   b.socio = socio;
+   b.acumComision = acumComision;
+   b.acumPrecioVentas = acumPrecioVentas;
+   return b;
+}
+
+bool rSocioEquals(RSocio a,RSocio b)
+{
+   if(!socioEquals(a.socio,b.socio)) return false;
+   if(a.acumComision!=b.acumComision) return false;
+   if(a.acumPrecioVentas!=b.acumPrecioVentas) return false;
+   return true;
+}
+
+string ventaToDebug(Venta x)
+{
+   stringstream sout;
+   sout<< "[";
+   sout << x.idSocio;
+   sout << ",";
+   sout << x.idProducto;
+   sout << ",";
+   sout << x.observ;
+   sout << ",";
+   sout << fechaToDebug(x.fecha);
+   sout << ",";
+   sout << x.importe;
+   sout<< "]";
+   return sout.str();
+}
+
+string ventaToDebug(string mssg,Venta x)
+{
+   stringstream sout;
+   sout<< mssg<<":[";
+   sout << x.idSocio;
+   sout << ",";
+   sout << x.idProducto;
+   sout << ",";
+   sout << x.observ;
+   sout << ",";
+   sout << fechaToDebug(x.fecha);
+   sout << ",";
+   sout << x.importe;
+   sout<< "]";
+   return sout.str();
+}
+
+Venta venta(int idSocio,int idProducto,string observ,Fecha fecha,double importe)
+{
+   Venta a;
+   a.idSocio = idSocio;
+   a.idProducto = idProducto;
+   strcpy(a.observ,observ.c_str());
+   a.fecha = fecha;
+   a.importe = importe;
+   return a;
+}
+
+bool ventaEquals(Venta a,Venta b)
+{
+   if(a.idSocio!=b.idSocio) return false;
+   if(a.idProducto!=b.idProducto) return false;
+   if(!fechaEquals(a.fecha,b.fecha)) return false;
+   if(a.importe!=b.importe) return false;
+   return true;
+}
+
+#endif

@@ -1,0 +1,126 @@
+
+#ifndef _MAIN
+#define _MAIN
+
+#include <iostream>
+#include "biblioteca/funciones/strings.hpp"
+#include "biblioteca/funciones/tokens.hpp"
+#include "biblioteca/funciones/files.hpp"
+#include "biblioteca/tads/Array.hpp"
+#include "biblioteca/tads/Map.hpp"
+#include "biblioteca/tads/List.hpp"
+#include "biblioteca/tads/Stack.hpp"
+#include "biblioteca/tads/Queue.hpp"
+#include "biblioteca/tads/Coll.hpp"
+using namespace std;
+
+//void mostrar(Node* p){ //recibe un puntero como parametro
+//
+//}
+
+//void procesarMovimientoDeCajas(Mov registroMovimiento,Map<int,RCaja> mapCajas){
+//
+//
+//
+//   //si es una entrada
+//   if ( registroMovimiento.mov == 'E'){
+//      //pto 1 -> encolamos
+//    //  queueEnqueue();
+//   } //sino, es una salida 'S' -> desencolamos
+//   else{
+//
+//   }
+//}
+//
+//void pto1(Map<int,RCaja> mapCajas){
+//
+//}
+//
+//void pto2(Map<int,RCaja> mapCajas){
+//
+//}
+//
+//void pto3(Map<int,RCaja> mapCajas){
+//
+//}
+
+
+int main()
+{
+
+   //   //recorrer el archivo e ir descubriendo las cajas
+   //   Map<int, RCaja> mapCajas = map<int, RCaja>();
+   //   FILE* f = fopen("MOVIMIENTOS.dat","r+b");
+   //
+   //   Mov registroMovimiento = read<Mov>(f);
+   //
+   //   while( !feof(f)){
+   //
+   //      procesarMovimientoDeCajas(registroMovimiento, mapCajas);
+   //   }
+   //
+   //   pto1();
+   //   pto2();
+   //   pto3();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   //template <typename T>
+   //void mostrar(Node<T>* p){
+   //
+   //   Node<T>* aux = p;
+   //   while ( aux != NULL){
+   //      T inf = aux->info;
+   //      cout << inf << endl;
+   //      aux = aux->sig;
+   //   }
+   //}
+   //
+   //int cmpIntDes(int a, int b){
+   //   return b-a;
+   //}
+
+
+//   //creamos un nodo vacio
+//   Node<string>* p = NULL;
+//   Node<string>* q = NULL;
+//
+//   enqueue<string>(p,q,"1er cliente");
+//   enqueue<string>(p,q,"2do cliente");
+//   enqueue<string>(p,q,"3er cliente");
+//
+//   cout << "Queue: " << endl;
+//   mostrar(p);
+//
+//   string elm = dequeue<string>(p,q);
+//
+//   cout << "\n" << "Elm desencolado: " << elm << endl;
+//   cout << "Y la queue quedo asi: " << endl;
+//   mostrar(p);
+   return 0;
+} //END MAIN
+
+#endif

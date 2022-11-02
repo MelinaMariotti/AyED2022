@@ -1,0 +1,294 @@
+#ifndef _TLIST_T_
+#define _TLIST_T_
+
+#include <iostream>
+#include <stdio.h>
+
+template <typename T>
+struct Node
+{
+   T info; //el valor que contiene el Nodo
+   Node<T>* sig;
+};
+
+//add "nuevo" at the end of the list
+template <typename T>
+Node<T>* add(Node<T>*& p,T e) //OK
+{
+   //1er parte - crear un nuevo espacio, una nueva cajita, un nuevo NODO
+   //le decimos al SO que necesitamos lo mencionado en la linea 17
+   Node<T>* nuevo = new Node<T>();
+
+   //meter el valor del 2do parametro en en NODO/caja
+   nuevo->info = e;
+   //colgarle la direccion del nuevo NODO como NULL xq es el ultimo valor de la lista
+   nuevo->sig = NULL;
+
+   //2da parte - enlazar el nodo "nuevo" a la list
+   //si la lista no esta vacia...
+   if ( p != NULL){
+      //creamos un puntero auxiliar que apunte al 1er nodo de p
+      Node<T>* aux = p;
+      //iteramos hasta apuntar al ultimo nodo
+      while(aux->sig != NULL){
+         aux = aux->sig;
+      }
+
+      //cuando termina de iterar ya queda apuntando al ultimo nodo
+      //hacer que aux apunte al nodo "nuevo", asi queda enlazado
+      aux->sig = nuevo;
+   }
+   else { //la lista esta vacia, hacemos que p apunte al nuevo nodo
+      p = nuevo;
+   }
+
+   return nuevo; //la & de memoria del nuevo nodo
+}
+
+
+template <typename T>
+Node<T>* addFirst(Node<T>*& p,T e) //OK
+{
+   //creamos el nuevo nodo/cajita
+   Node<T>* nuevo = new Node<T>();
+   //le asignamos el nuevo valor
+   nuevo->info = e;
+
+   //hacemos que el sig de nuevo apunte a p
+   nuevo->sig = p;
+
+   //hacemos que p apunte a nuevo, y este luego enlazara con el resto de los nodos con la linea 58
+   p = nuevo;
+
+   return nuevo; //la & del nuevo nodo insertado
+}
+
+template <typename T, typename K>
+T remove(Node<T>*& p,K k,int cmpTK(T,K))//OK
+{
+   T t; // el info removido
+
+   Node<T>* aux = p;
+   Node<T>* ant = NULL;
+
+   //parte 1 - encontrar el elemento a remover, si o si debemos recorrer toda la lista xq esta es secuencial
+
+   //mientras no termine la list y no encuentren <K>
+   while( aux!=NULL && cmpTK(aux->info, k)!=0 ){
+      ant = aux;
+      //hacemos que aux este 1 paso mas adeltante que ant apuntando al sig
+      aux = aux->sig;
+   } //cuando finaliza el while, aux tiene la & del <T> a remover
+
+   //guardamos el valor a remover
+   t = aux->info;
+
+   //parte 2 - removemos el elemento
+
+   //contemplamos si se tiene que remover el 1er nodo
+   if(ant == NULL){
+      //p va a puntar al 2do nodo que esta en el sig de aux
+      p = aux->sig;
+   }
+   else{
+      //el siguiente de ant va a apuntar la sig de aux
+      ant->sig = aux->sig;
+   }
+
+   //liberamos y desenlazamos el nodo de la list
+   delete aux;
+   return t;
+}
+
+template <typename T>
+T removeFirst(Node<T>*& p) //OK
+{
+   T t = p->info; //info a remover
+
+   //hacemos que apunte al sig de p (NO al 1er nodo de p)
+   Node<T>* aux = p->sig;
+
+   //como p apunta al primer nodo, lo removemos
+   delete p;
+
+   //hacemos que p apunte a su sig mediante aux
+   p = aux;
+
+   return t; //el elem que fue removido
+}
+
+template <typename T, typename K>
+Node<T>* find(Node<T>* p,K k,int cmpTK(T,K)) //OK
+{
+   Node<T>* aux = p;
+   while ( aux != NULL && cmpTK(aux->info,k) != 0)
+   {
+      aux = aux->sig;
+   }
+   return aux; //si no lo encuenta retorna NULL xq eo tiene el ult nodo de la list
+}
+
+//la lista DEBE estar previamente ORDENADA, o vacia
+template <typename T>
+Node<T>* orderedInsert(Node<T>*& p,T e,int cmpTT(T,T)) //OK
+{
+   //instanciamos un nodo para recorrer toda la list
+   Node<T> *aux = p;
+
+   //1er caso - lista vacia o nuevo es el nodo + chico
+   if (p == NULL || cmpTT(e, aux->info) <= 0)
+   {
+      return addFirst(p,e); //esta func crea internamente le nuevo nodo
+   }
+
+   //sino, iteramos hasta el final
+   while (aux->sig != NULL)
+   {
+      Node<T>* next = aux->sig;
+
+      //2do caso - Si el elem es <= al acutal, esta en el medio de la list, insertarlo en esta pos
+      if (cmpTT(e, aux->info) == 0)
+      {
+         Node<T> *nuevo = new Node<T>();
+         nuevo->info = e;
+         nuevo->sig = next;
+
+         aux->sig = nuevo;
+
+         return nuevo;
+      }
+
+      aux = aux->sig;
+   } //END WHILE
+
+   // Si el elem no es <= a ninguno, es el + grande, insertarlo al final.
+   return add<T>(p, e); //esta func crea internamente le nuevo nodo
+
+}
+
+//NO acepta info repetidos
+template <typename T>
+Node<T>* searchAndInsert(Node<T>*& p,T e,bool& enc,int cmpTT(T,T)) //OK
+{
+   Node<T>* ptrFounded = find<T,T>(p,e,cmpTT);
+
+   //si NO estaba en la lista, insertarlo en orden
+   if( ptrFounded == NULL){
+      enc = false;
+      return orderedInsert<T>(p,e,cmpTT);
+   }
+
+   //sino, significa que ya estaba, retornamos la & de esa pos
+   enc = true;
+   return ptrFounded;
+}
+
+template <typename T>
+void sort(Node<T>*& p,int cmpTT(T,T)) //OK with Bubble Sort
+{
+   bool ordenado = false;
+
+   while( !ordenado ){ //mientras que NO ESTE ordenado itera para justamente ordenarlo
+
+      ordenado = true;
+
+      //instanciamos un aux para que recorra toda la list n veces hasta que termine el while
+      Node<T>* aux = p;
+
+      //instanciamos un nex para que vaya un nodo mas adelante que aux
+      Node<T>* next = aux->sig;
+
+      //recorremos toda la list
+      while( aux->sig != NULL){
+         if(cmpTT(aux->info, next->info) > 0){
+            //permutamos los valores
+            T infoBackUp = aux->info;
+            aux->info = next->info;
+            next->info = infoBackUp;
+
+            //si entro en este if es porque se tenia que permutar
+            //ponemos que sigue desordenado para que el while siga analizando el programa
+            ordenado = false; // esto es == a !ordenado
+         }
+
+         //si no entro al if es porque esta ordenado, seguira en true
+
+         //para que siga iterando hasta el final de la list
+         aux = aux->sig;
+         next = next->sig;
+      }
+   }
+}
+
+template <typename T>
+bool isEmpty(Node<T>* p) //OK
+{
+   return p == NULL;
+}
+
+template <typename T>
+void free(Node<T>*& p) //OK? no se como confirmar que funcione bien
+{
+   while( p != NULL){
+      Node<T>* aux = p->sig;
+      delete p;
+      p = aux;
+   }
+}
+
+// ------------------ STACK / PILA ------------------
+// ------------------     LIFO     ------------------
+//inserta un nuevo elemento en la cima de la pila
+template <typename T>
+Node<T>* push(Node<T>*& p,T e) //OK
+{
+   return addFirst<T>(p,e);
+}
+
+//desapila
+template <typename T>
+T pop(Node<T>*& p) //OK
+{
+   return removeFirst<T>(p); //la func ya return el elm removido
+}
+
+// ------------------ QUEUE / COLA ------------------
+// ------------------     FIFO     ------------------
+
+// queue LINEAL (xq tiene 2 ptrs)
+template <typename T>
+Node<T>* enqueue(Node<T>*& p,Node<T>*& q,T e)
+{
+   //creamos el nuevo nodo a enlazar
+   Node<T>* nuevo = new Node<T>;
+   nuevo->info = e;
+   nuevo->sig = NULL;
+
+   p->sig = nuevo;
+   return NULL;
+}
+
+// queue CIRCULAR
+template <typename T>
+Node<T>* enqueue(Node<T>*& q,T e)
+{
+   return NULL;
+}
+
+// queue LINEAL (xq tiene 2 ptrs)
+template <typename T>
+T dequeue(Node<T>*& p, Node<T>*& q)
+{
+   T t;
+   return t;
+}
+
+// queue CIRCULAR
+template <typename T>
+T dequeue(Node<T>*& q)
+{
+   T t;
+   return t;
+}
+
+#endif
